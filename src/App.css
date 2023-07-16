@@ -3,14 +3,23 @@
   padding: 0;
 }
 
+header {
+  background-color: black;
+  text-align: center;
+  font-family: 'Noto Serif Khitan Small Script', sans-serif;
+}
+
 .container {
   background-color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container .header-links {
   padding: 10px;
   text-align: right;
   box-sizing: border-box;
+
 
 }
 
@@ -24,4 +33,83 @@
   font-size: 20px;
   margin: 10px;
   text-decoration: none;
+}
+
+.container .logo {
+  margin-left: 28px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.container .logo h2 {
+  color: white;
+  margin-left: 22px;
+}
+
+header .logo-center {
+  display: inline-block;
+  color: white;
+}
+
+header .logo-center img,
+h2 {
+  margin-bottom: 20px;
+}
+
+header .logo-center p {
+  margin-bottom: 40px;
+}
+
+/* HOME SECTION  */
+
+.home-container {
+  margin: 25px 40px;
+  padding: 30px;
+  text-align: center;
+}
+
+.home-container .intro h2 {
+  font-size: 40px;
+}
+
+.home-container .intro p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Noto Serif Khitan Small Script', sans-serif;
+}
+
+/* FOOTER SECTION  */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px 40px;
+}
+
+.footer-container .footer-logo {
+  margin-left: 28px;
+  padding-left: 30px;
+}
+
+.footer-container .footer-logo .bottomnav a,
+.footer-container .footer-contact a,
+.footer-container .footer-connect a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.footer-container .footer-contact {
+  margin: 16px;
+  padding: 20px;
+  display: block;
+
 }
