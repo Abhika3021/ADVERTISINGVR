@@ -9,39 +9,30 @@ header {
   font-family: 'Noto Serif Khitan Small Script', sans-serif;
 }
 
-.container {
+.container-fluid {
   background-color: black;
   display: flex;
   justify-content: space-between;
 }
 
-.container .header-links {
-  padding: 10px;
+.container-fluid .header-links {
   text-align: right;
   box-sizing: border-box;
-
-
 }
 
-.container .header-links a {
+.container-fluid .header-links a {
   color: white;
-  box-sizing: border-box;
-  flex: 1;
-  width: 100%;
-  align-items: center;
   padding: 10px;
   font-size: 20px;
-  margin: 10px;
-  text-decoration: none;
 }
 
-.container .logo {
-  margin-left: 28px;
+.container-fluid .logo {
+  margin-left: 30px;
   padding-top: 10px;
   display: flex;
 }
 
-.container .logo h2 {
+.container-fluid .logo h2 {
   color: white;
   margin-left: 22px;
 }
@@ -85,20 +76,13 @@ footer {
   text-align: center;
 }
 
-.footer-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.container {
   padding: 20px 40px;
 }
 
-.footer-container .footer-logo {
-  margin-left: 28px;
-  padding-left: 30px;
-}
-
-.footer-container .footer-logo .bottomnav a,
-.footer-container .footer-contact a,
-.footer-container .footer-connect a {
+.container .footer-logo .bottomnav a,
+.container .footer-contact a,
+.container .footer-connect a {
   display: block;
   color: white;
   text-decoration: none;
