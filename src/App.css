@@ -1,43 +1,62 @@
+:root {
+  --sale: #F65B5B;
+  --black: #000000;
+  --gold: #F7DC5A;
+  --gold20: #FDF8DD;
+  --gold40: #FAF1BD;
+  --gray: #999999;
+  --dark-gray: #F4F4F4;
+  --blue: #5AB5F7;
+  --blue20: #DEF0FD;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: black;
+  background-color: var(--black);
   text-align: center;
   font-family: 'Noto Serif Khitan Small Script', sans-serif;
 }
-
-.container-fluid {
-  background-color: black;
+header .container-fluid{
+  margin: 0;
+  padding: 0;
+}
+.container-fluid .laptop{
+  background-color: var(--black);
   display: flex;
+  width: 100%;
+  position: fixed;
   justify-content: space-between;
+  z-index: 2;
 }
 
-.container-fluid .header-links {
+.container-fluid .header-links-laptop {
   text-align: right;
   box-sizing: border-box;
 }
 
-.container-fluid .header-links a {
+.container-fluid .header-links-laptop a {
   color: white;
   padding: 10px;
   font-size: 20px;
 }
 
-.container-fluid .logo {
+.container-fluid .laptop-logo {
   margin-left: 30px;
   padding-top: 10px;
   display: flex;
 }
 
-.container-fluid .logo h2 {
+.container-fluid .laptop-logo h2 {
   color: white;
   margin-left: 22px;
 }
 
 header .logo-center {
+  padding-top: 80px;
   display: inline-block;
   color: white;
 }
@@ -51,6 +70,142 @@ header .logo-center p {
   margin-bottom: 40px;
 }
 
+
+
+#benefits {
+  background-color: var(--gold40);
+}
+
+#benefitsInner {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 30px;
+}
+
+.benefitItem {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.benefitItem svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 800px) {
+  #benefitsInner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 4px;
+    padding: 6px 6px;
+    width: min-content;
+    overflow-y: auto;
+    max-width: 100vw;
+  }
+
+  .benefitItem {
+    font-weight: 700;
+    font-size: 8.5px;
+    line-height: 100%;
+    white-space: nowrap;
+    justify-content: left;
+  }
+
+  .benefitItem svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Updated styles for mobile responsiveness */
+.mobile{
+  margin: 0;
+  padding: 0;
+}
+.mobile .navbar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #fff;
+  z-index: 2;
+  padding: 10px 20px;
+  /* Ensure the navbar stays on top of the blurred background */
+}
+
+.mobile .navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mobile .navbar-items {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile .navbar-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.mobile .navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Updated styles for mobile responsiveness */
+@media (max-width: 768px) {
+
+  .mobile .navbar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    background-color: #000000;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  .mobile .navbar-items.active {
+    opacity: 1;
+    pointer-events: auto;
+    height: 100vh;
+    width: 60%;
+    transform: translateX(0);
+  }
+
+  .mobile .navbar-item {
+    padding: 10px;
+    color: #fff;
+    
+  }
+
+  .mobile .navbar-toggle {
+    display: block;
+  }
+}
+
+.mobile .navbar .navbar-items a{
+  text-decoration: none;
+}
 /* HOME SECTION  */
 
 .home-container {
@@ -69,9 +224,87 @@ header .logo-center p {
   font-family: 'Noto Serif Khitan Small Script', sans-serif;
 }
 
+/* Benefits */
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  /* Adjust the maximum width as per your preference */
+  padding: 20px;
+}
+
+.carousel-container h2 {
+  margin-bottom: 20px;
+}
+
+.carousel .control-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  /* Adjust the position as per your preference */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+/* CSS Styling for the Card */
+.card {
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+/* CSS Styling for the Card Container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .card {
+    max-width: 45%;
+    /* Adjust as needed for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 90%;
+    /* Adjust as needed for smaller screens */
+  }
+}
+
+
+
+
 /* FOOTER SECTION  */
 footer {
-  background-color: black;
+  background-color: var(--black);
   color: white;
   text-align: center;
 }
@@ -96,4 +329,24 @@ footer {
   padding: 20px;
   display: block;
 
+}
+
+@media (min-width: 480px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-fluid .laptop {
+    display: none;
+  }
+
+  .mobile {
+    visibility: visible;
+  }
+  .container .footer-connect .social-icons {
+    display: flex;
+    padding-left: 75px;
+  }
 }

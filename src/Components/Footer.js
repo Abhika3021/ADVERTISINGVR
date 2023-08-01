@@ -65,11 +65,13 @@ const Footer = () => {
                     <div className='footer-connect col-sm-4 col-xs'>
                         <div>
                             <h2>Get In Touch!</h2>
+                            <div className='social-icons'>
                             <a href="#"><WhatsAppIcon /></a>
                             <a href="#"><LinkedInIcon /></a>
                             <a href="#"><FacebookIcon /></a>
                             <a href="#"><YouTubeIcon /></a>
                             <a href="#"><RoomIcon /></a>
+                            </div>
                         </div>
                     </div>
                 </div>

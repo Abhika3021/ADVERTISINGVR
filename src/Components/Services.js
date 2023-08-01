@@ -1,8 +1,11 @@
 import React from 'react'
+import ServiceContainer from './ServiceContainer'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div>
+      <ServiceContainer />
+    </div>
   )
 }
 
