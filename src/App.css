@@ -206,6 +206,8 @@ header .logo-center p {
 .mobile .navbar .navbar-items a{
   text-decoration: none;
 }
+
+
 /* HOME SECTION  */
 
 .home-container {
@@ -214,6 +216,30 @@ header .logo-center p {
   text-align: center;
 }
 
+.home-container .intro{
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+.home-container .intro .read-button{
+  display: flex;
+  width: 100%;
+}
+.home-container .intro .read-button .btn{
+  width: 20%;
+  margin-bottom: 20px;
+}
+@media (max-width: 480px){
+  .home-container{
+    margin: 10px 20px;
+    padding: 30px 10px;
+  }
+  .home-container .intro .read-button .btn{
+    width: 100%;
+  }
+}
+.home-container .intro .intro-content{
+  margin-top: 20px;
+}
 .home-container .intro h2 {
   font-size: 40px;
 }
@@ -223,7 +249,11 @@ header .logo-center p {
   font-size: 18px;
   font-family: 'Noto Serif Khitan Small Script', sans-serif;
 }
-
+.home-container .intro ul{
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+}
 /* Benefits */
 .carousel-container {
   display: flex;
