@@ -4,6 +4,7 @@ import CarouselSlideshow from './Benefits/CarouselSlideshow';
 import VisibilitySharpIcon from '@mui/icons-material/VisibilitySharp';
 import { GiHumanTarget } from 'react-icons/gi'
 import { Button } from '@mui/material';
+import Brand from './Brand';
 
 const Home = () => {
     return (
@@ -40,11 +41,12 @@ const Home = () => {
                     <h2>What we offer</h2>
                     <OfferContainer />
                 </div>
-                <div className='benefits'>
+                <Brand />
+                {/* <div className='benefits'>
                     <CarouselSlideshow />
                     <p>Despite the rise of digital advertising and online media, outdoor branding through flex and hoardings continues to offer unique advantages in terms of visibility, brand reinforcement, and local targeting, making it an important component of comprehensive marketing strategies in today's world.
                     </p>
-                </div>
+                </div> */}
             </div>
         </section>
     )
