@@ -58,19 +58,61 @@ const Brand = () => {
             </div> */}
             <div className="why">
                 <div className="whyInner container-fluid">
-                    <div className='row'>
-                        <div className='whyHead col-md-6'>
-                            <div className='whyHeadTitle'>
+                    <div className='whyHead'>
+                        <div className='whyHeadTitle'>
                             <h2 class="whyTitle">
-                                Why <span>Brands</span><br />
-                                think <span>COLOURX</span><br />
-                                provides best<br />
-                                Advertising solutions
+                                Why <span>Brands</span> think <span>COLOURX</span> provides best Advertising solutions
                             </h2>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div className="whyList col-md-6">
+                            <div class="whyListItem">
+                                <img class="whyListItemIcon" src="//tabschocolate.com/cdn/shop/t/86/assets/icon-check-yellow.svg?v=151627672685728032171682619127" alt="yellow check mark" />
+                                <div class="whyListItemTitle">Creativity!</div>
+                                <div class="whyListItemBody">
+                                    Our talented designers create eye-catching ad campaigns that leave a lasting impact.
+                                </div>
+                            </div>
+                            <div class="whyListItem">
+                                <img class="whyListItemIcon" src="//tabschocolate.com/cdn/shop/t/86/assets/icon-check-yellow.svg?v=151627672685728032171682619127" alt="yellow check mark" />
+                                <div class="whyListItemTitle">State of the art Technology</div>
+                                <div class="whyListItemBody">
+                                    Cutting-edge printing equipment ensures high-quality advertising materials.
+
+                                </div>
+                            </div>
+                            <div class="whyListItem">
+                                <img class="whyListItemIcon" src="//tabschocolate.com/cdn/shop/t/86/assets/icon-check-yellow.svg?v=151627672685728032171682619127" alt="yellow check mark" />
+                                <div class="whyListItemTitle">Professional Team</div>
+                                <div class="whyListItemBody">
+                                    Our dedicated professionals deliver seamless experiences from concept to execution.
+
+                                </div>
                             </div>
                         </div>
                         <div className="whyList col-md-6">
-
+                            <div class="whyListItem">
+                                <img class="whyListItemIcon" src="//tabschocolate.com/cdn/shop/t/86/assets/icon-check-yellow.svg?v=151627672685728032171682619127" alt="yellow check mark" />
+                                <div class="whyListItemTitle">Timely Delivery</div>
+                                <div class="whyListItemBody">
+                                    We meet deadlines without compromising on quality.
+                                </div>
+                            </div>
+                            <div class="whyListItem">
+                                <img class="whyListItemIcon" src="//tabschocolate.com/cdn/shop/t/86/assets/icon-check-yellow.svg?v=151627672685728032171682619127" alt="yellow check mark" />
+                                <div class="whyListItemTitle">Client-Centric Approach</div>
+                                <div class="whyListItemBody">
+                                    We understand your brand, audience, and goals to deliver tailor-made solutions.
+                                </div>
+                            </div>
+                            <div class="whyListItem">
+                                <img class="whyListItemIcon" src="//tabschocolate.com/cdn/shop/t/86/assets/icon-check-yellow.svg?v=151627672685728032171682619127" alt="yellow check mark" />
+                                <div class="whyListItemTitle">Cost-Effective Solutions</div>
+                                <div class="whyListItemBody">
+                                    Great advertising at competitive prices, accessible to businesses of all sizes.
+                                </div>
+                            </div>
                         </div>
                     </div>
 

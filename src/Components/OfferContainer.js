@@ -22,10 +22,14 @@ const OfferContainer = () => {
   ];
 
   return (
-    <div className="card-container">
-      {cards.map((card, index) => (
-        <Card key={index} title={card.title} description={card.description} image={card.image} />
-      ))}
+    <div className="container">
+      <div className='row'>
+        {cards.map((card, index) => (
+          <div className='col-md-4 col-sm-6'>
+            <Card key={index} title={card.title} description={card.description} image={card.image} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
