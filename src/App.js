@@ -4,11 +4,7 @@ import AboutUs from './Components/AboutUs';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Home from './Components/Home';
-<<<<<<< HEAD
-import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
-=======
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
->>>>>>> origin/master
 import Services from './Components/Services';
 import ContactUs from './Components/ContactUs';
 

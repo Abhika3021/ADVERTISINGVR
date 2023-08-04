@@ -77,19 +77,19 @@ const StarFlex = () => {
           </li>
 
           <li>
-            Durability:
-            Designed to withstand harsh environmental conditions like sunlight, rain, wind, and temperature variations without significant wear and tear making it reliable.
+          •Cost-Effective:
+      It is relatively affordable, making it a cost-effective choice for large-scale advertising campaigns and outdoor promotions.
           </li>
 
           <li>
-            Durability:
-            Designed to withstand harsh environmental conditions like sunlight, rain, wind, and temperature variations without significant wear and tear making it reliable.
+          •Customizable Sizes:
+      can be easily cut to the desired dimensions without compromising on quality allowing for customization based on the specific requirements of project
           </li>
 
           <li>
-            Durability:
-            Designed to withstand harsh environmental conditions like sunlight, rain, wind, and temperature variations without significant wear and tear making it reliable.
-          </li>
+          •Reusable:
+      Sometimes can be reused for different events or campaigns, further enhancing their cost-effectiveness.
+      </li>
           
         </ul>
       </div>
@@ -99,17 +99,13 @@ const StarFlex = () => {
 
       
 
-      •Cost-Effective:
-      It is relatively affordable, making it a cost-effective choice for large-scale advertising campaigns and outdoor promotions.
+      
 
-      •Customizable Sizes:
-      can be easily cut to the desired dimensions without compromising on quality allowing for customization based on the specific requirements of project
+      
 
-      •Reusable:
-      Sometimes can be reused for different events or campaigns, further enhancing their cost-effectiveness.
+      
     </div>
-    <div>StarFlex</div>
   )
 }
 
-export default StarFlex
+export default StarFlex;
