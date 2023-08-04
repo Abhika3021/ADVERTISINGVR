@@ -1,6 +1,6 @@
 import React from 'react'
 import OfferContainer from './OfferContainer';
-import CarouselSlideshow from './Benefits/CarouselSlideshow';
+import WorkIcon from '@mui/icons-material/Work';
 import VisibilitySharpIcon from '@mui/icons-material/VisibilitySharp';
 import { GiHumanTarget } from 'react-icons/gi'
 import { Button } from '@mui/material';
@@ -18,7 +18,7 @@ const Home = () => {
                     </p>
                     <ul>
                         <li><VisibilitySharpIcon /> Visibility</li>
-                        <li>Brand reinforcement</li>
+                        <li><WorkIcon /> Brand reinforcement</li>
                         <li><GiHumanTarget /> Local targeting</li>
                     </ul>
                     <div className='read-button'>
