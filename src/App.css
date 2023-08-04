@@ -1,0 +1,474 @@
+:root {
+  --sale: #F65B5B;
+  --black: #000000;
+  --gold: #F7DC5A;
+  --gold20: #FDF8DD;
+  --gold40: #FAF1BD;
+  --gray: #999999;
+  --dark-gray: #F4F4F4;
+  --blue: #5AB5F7;
+  --blue20: #DEF0FD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--black);
+  text-align: center;
+  font-family: 'Noto Serif Khitan Small Script', sans-serif;
+}
+
+header .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid .laptop {
+  background-color: var(--black);
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.container-fluid .header-links-laptop {
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.container-fluid .header-links-laptop a {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.container-fluid .laptop-logo {
+  margin-left: 30px;
+  padding-top: 10px;
+  display: flex;
+}
+
+.container-fluid .laptop-logo h2 {
+  color: white;
+  margin-left: 22px;
+}
+
+header .logo-center {
+  padding-top: 80px;
+  display: inline-block;
+  color: white;
+}
+
+header .logo-center img,
+h2 {
+  margin-bottom: 20px;
+}
+
+header .logo-center p {
+  margin-bottom: 40px;
+}
+
+
+
+#benefits {
+  background-color: var(--gold40);
+}
+
+#benefitsInner {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 30px;
+}
+
+.benefitItem {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.benefitItem svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 800px) {
+  #benefitsInner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+    row-gap: 4px;
+    padding: 6px 6px;
+    width: min-content;
+    overflow-y: auto;
+    max-width: 100vw;
+  }
+
+  .benefitItem {
+    font-weight: 700;
+    font-size: 8.5px;
+    line-height: 100%;
+    white-space: nowrap;
+    justify-content: left;
+  }
+
+  .benefitItem svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Updated styles for mobile responsiveness */
+.mobile {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile .navbar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #fff;
+  z-index: 2;
+  padding: 10px 20px;
+  /* Ensure the navbar stays on top of the blurred background */
+}
+
+.mobile .navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mobile .navbar-items {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.mobile .navbar-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.mobile .navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+
+/* Updated styles for mobile responsiveness */
+@media (max-width: 768px) {
+
+  .mobile .navbar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    background-color: #000000;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+
+  .mobile .navbar-items.active {
+    opacity: 1;
+    pointer-events: auto;
+    height: 100vh;
+    width: 60%;
+    transform: translateX(0);
+  }
+
+  .mobile .navbar-item {
+    padding: 10px;
+    color: #fff;
+
+  }
+
+  .mobile .navbar-toggle {
+    display: block;
+  }
+}
+
+.mobile .navbar .navbar-items a {
+  text-decoration: none;
+}
+
+
+/* HOME SECTION  */
+
+.home-container {
+  margin: 25px 40px;
+  padding: 30px;
+  text-align: center;
+}
+
+.home-container .intro {
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+
+.home-container .intro .read-button {
+  display: flex;
+  width: 100%;
+}
+
+.home-container .intro .read-button .btn {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    margin: 10px 20px;
+    padding: 30px 10px;
+  }
+
+  .home-container .intro .read-button .btn {
+    width: 100%;
+  }
+}
+
+.home-container .intro .intro-content {
+  margin-top: 20px;
+}
+
+.home-container .intro h2 {
+  font-size: 40px;
+}
+
+.home-container .intro p {
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'Noto Serif Khitan Small Script', sans-serif;
+}
+
+.home-container .intro ul {
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Benefits */
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  /* Adjust the maximum width as per your preference */
+  padding: 20px;
+}
+
+.carousel-container h2 {
+  margin-bottom: 20px;
+}
+
+.carousel .control-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  /* Adjust the position as per your preference */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home-container .offer{
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+/* CSS Styling for the Card */
+.card {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* text-align: justify; */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+}
+
+/* Brand */
+
+.why {
+  padding: 90px 0;
+}
+.why .whyInner{
+  text-align: left;
+}
+.why .whyInner .whyHead{
+  width: 100%;
+}
+.why .whyInner .whyHead .whyTitle {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 140%;
+  margin: 0;
+}
+.whyTitle span {
+  padding: 0 25px;
+  border-radius: 12px;
+  margin-right: 5px;
+}
+.whyTitle span:first-of-type {
+  background-color: var(--black);
+  white-space: nowrap;
+  color: var(--gold);
+  padding-bottom: 6px;
+}
+.whyTitle span:last-of-type {
+  background-color: var(--gold);
+  white-space: nowrap;
+  font-family: 'Laila', sans-serif;
+  padding-right: 16px;
+}
+@media (max-width: 1024px) {
+  .why .whyInner .whyHead .whyTitle {
+    font-size: 45px;
+  }
+}
+.why .whyInner .whyList{
+  margin-top: 20px;
+}
+.why .whyInner .whyList .whyListItem {
+  display: grid;
+  grid-template-columns: 32px auto;
+  column-gap: 12px;
+  margin-bottom: 24px;
+}
+
+.why .whyInner .whyList .whyListItem:last-of-type {
+  margin-bottom: 0;
+}
+
+.why .whyInner .whyList .whyListItem .whyListItemIcon {
+  margin-top: 5px;
+}
+
+.why .whyInner .whyList .whyListItem .whyListItemTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 160%;
+}
+.why .whyInner .whyList .whyListItem img{
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.why .whyInner .whyList .whyListItem .whyListItemBody {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  grid-column: 2/3;
+}
+
+@media (max-width: 800px) {
+  .why {
+    padding: 0 24px 48px;
+  }
+  .why .whyInner .whyHead .whyTitle {
+    font-size: 32px;
+  }
+  .why .whyInner .whyList .whyListItem .whyListItemIcon {
+    margin-top: 2px;
+  }
+
+  .why .whyInner .whyList .whyListItem .whyListItemTitle {
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+  .why .whyInner .whyList .whyListItem .whyListItemBody {
+    font-size: 16px;
+    line-height: 160%;
+  }
+
+  .why .whyInner .whyList .whyListItem .whyListItemBody br {
+    display: none;
+  }
+}
+
+
+/* FOOTER SECTION  */
+footer {
+  background-color: var(--black);
+  color: white;
+  text-align: center;
+}
+
+footer .container {
+  padding: 20px 40px;
+}
+footer .container h2{
+  color: var(--gold);
+}
+.container .footer-logo .bottomnav a,
+.container .footer-contact a,
+.container .footer-connect a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.footer-container .footer-contact {
+  margin: 16px;
+  padding: 20px;
+  display: block;
+
+}
+
+@media (min-width: 480px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-fluid .laptop {
+    display: none;
+  }
+
+  .mobile {
+    visibility: visible;
+  }
+
+  .container .footer-connect .social-icons {
+    display: flex;
+    padding-left: 75px;
+  }
+}
