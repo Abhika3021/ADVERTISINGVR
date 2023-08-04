@@ -108,6 +108,7 @@ const StarFlex = () => {
       •Reusable:
       Sometimes can be reused for different events or campaigns, further enhancing their cost-effectiveness.
     </div>
+    <div>StarFlex</div>
   )
 }
 
