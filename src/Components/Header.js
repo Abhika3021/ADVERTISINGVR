@@ -1,4 +1,4 @@
-import Img from '../images/logo.jpg';
+import Img from '../images/logo.png';
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
@@ -16,8 +16,8 @@ const Header = () => {
                 <div className='container-fluid '>
                     <div className='laptop'>
                     <div className='laptop-logo'>
-                        <img src={Img} alt='image' style={{ height: '50px', width: '50px' }}></img>
-                        <h2>VR PRINTERS</h2>
+                        <img src={Img} alt='image' style={{ height: '40px', width: '47px' }}></img>
+                        <h2>COLOUR X</h2>
                     </div>
                     <nav>
                         <div className='header-links-laptop nav'>
@@ -38,7 +38,7 @@ const Header = () => {
                             <div className='menu-icon'>{isOpen ? <ArrowBackIosIcon /> : <MenuIcon />}</div>
                         </div>
                         <div className='navbar-logo' >
-                            <img src={Img} alt='image' style={{ height: '50px', width: '50px' }}></img>
+                            <img src={Img} alt='image' style={{ height: '40px', width: '47px' }}></img>
                         </div>
                         <div className={`navbar-items ${isOpen ? 'active' : ''}`}>
                             <Link to='/' className='navbar-item'>Home</Link>
@@ -49,8 +49,8 @@ const Header = () => {
                     </nav>
                 </div>
                 <div className='logo-center'>
-                    <img src={Img} alt='image'></img>
-                    <h2>VR PRINTERS</h2>
+                    <img src={Img} alt='image' style={{ height: '100px', width: '120px' }}></img>
+                    <h2>COLOUR X</h2>
                     <p>PRINTING | ADVERTISING | MARKETING</p>
                 </div>
 

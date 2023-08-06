@@ -456,13 +456,18 @@ footer .container h2{
   .mobile {
     display: none;
   }
+  header .logo-center h2{
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
   .container-fluid .laptop {
     display: none;
   }
-
+  header .logo-center h2{
+    visibility: visible;
+  }
   .mobile {
     visibility: visible;
   }
