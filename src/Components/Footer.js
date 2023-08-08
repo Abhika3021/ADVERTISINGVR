@@ -1,4 +1,4 @@
-import Img from '../images/logo.jpg';
+import Img from '../images/logo.png';
 import { Link } from 'react-router-dom';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className='row'>
                     <div className='footer-logo col-sm-4 col-xs'>
                         <div>
-                            <img src={Img} alt='image' style={{ height: '50px', width: '50px' }}></img>
+                            <img src={Img} alt='image' style={{ height: '50px', width: '60px' }}></img>
                             <h2>VR PRINTERS</h2>
                             <div className='bottomnav'>
                                 <Link to='/' className='nav-link'>Home</Link>

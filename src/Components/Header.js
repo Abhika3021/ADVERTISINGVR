@@ -1,6 +1,7 @@
 import Img from '../images/logo.png';
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
+import HomeIcon from '@mui/icons-material/Home';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import MenuIcon from '@mui/icons-material/Menu';
 const Header = () => {
@@ -16,8 +17,8 @@ const Header = () => {
                 <div className='container-fluid '>
                     <div className='laptop'>
                     <div className='laptop-logo'>
-                        <img src={Img} alt='image' style={{ height: '40px', width: '47px' }}></img>
-                        <h2>COLOUR X</h2>
+                        <img src={Img} alt='image' style={{ height: '50px', width: '60px' }}></img>
+                        <h2>ColourX</h2>
                     </div>
                     <nav>
                         <div className='header-links-laptop nav'>
@@ -35,10 +36,13 @@ const Header = () => {
 
                     <nav className='navbar'>
                         <div className="navbar-toggle" onClick={toggleMenu}>
-                            <div className='menu-icon'>{isOpen ? <ArrowBackIosIcon /> : <MenuIcon />}</div>
+                            <div className='menu-icon'>{isOpen ? <ArrowBackIosIcon /> : <MenuIcon sx={{fontSize: 35}}/>}</div>
                         </div>
-                        <div className='navbar-logo' >
-                            <img src={Img} alt='image' style={{ height: '40px', width: '47px' }}></img>
+                        <div className='navbar-head'>
+                        <h2>ColourX</h2>
+                        </div>
+                        <div className='navbar-home' >
+                            <Link to='/'><HomeIcon sx={{fontSize: 35}} /></Link>
                         </div>
                         <div className={`navbar-items ${isOpen ? 'active' : ''}`}>
                             <Link to='/' className='navbar-item'>Home</Link>
@@ -48,11 +52,10 @@ const Header = () => {
                         </div>
                     </nav>
                 </div>
-                <div className='logo-center'>
+                {/* <div className='logo-center'>
                     <img src={Img} alt='image' style={{ height: '100px', width: '120px' }}></img>
-                    <h2>COLOUR X</h2>
-                    <p>PRINTING | ADVERTISING | MARKETING</p>
-                </div>
+                    <p>FLEX PRINTING | OUTDOOR ADVERTISING | HOARDINGS</p>
+                </div> */}
 
             </header>
 
