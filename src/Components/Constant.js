@@ -90,17 +90,35 @@ export const CARDS = [
       component: <FlexSignages />
     },
     {
-      title: 'Flex Standies and Canopy',
-      description: "",
-      image: 'card3.jpg',
-      route: 'flex-standies-and-canopy',
-      component: <FlexStandiesAndCanopy />
-    },
-    {
       title: 'LED Sign Board',
       description: "",
       image: 'card3.jpg',
       route: 'led-sign-board',
       component: <LedSignBoard />
     },
+    {
+      title: 'Flex Standies and Canopy',
+      description: "",
+      image: 'card3.jpg',
+      route: 'flex-standies-and-canopy',
+      component: <FlexStandiesAndCanopy />
+    },
   ];
+
+export const OFFER = [
+  {
+    title: 'Flex Printing',
+    description: "Offering wide range of high-quality flex materials ensureing vibrant colors, excellent resolution, and durability thus ensureing your message stands out and reaches your target audience effectively.",
+    image: 'card1.jpg',
+  },
+  {
+    title: 'Hoardings',
+    description: "With strategically located hoardings in prime locations, we help your brand gain maximum exposure and create a lasting impression on passersby.",
+    image: 'card2.jpg',
+  },
+  {
+    title: 'Customized Solutions',
+    description: "Understanding uniqueness in every business, and cookie-cutter approaches won't cut it. That's why we take a personalized approach to every project, tailoring our services to meet your specific advertising needs and objectives.",
+    image: 'card3.jpg',
+  },
+];

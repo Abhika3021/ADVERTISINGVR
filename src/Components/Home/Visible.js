@@ -1,6 +1,7 @@
 import React from 'react'
 import Img from '../../images/logo.png';
 import WorkIcon from '@mui/icons-material/Work';
+import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 import VisibilitySharpIcon from '@mui/icons-material/VisibilitySharp';
 import { GiHumanTarget } from 'react-icons/gi'
 import { Button } from '@mui/material';
@@ -17,7 +18,7 @@ const Visible = () => {
                         </p>
                         <ul>
                             <li><VisibilitySharpIcon className='intro-icon' /> Visibility</li>
-                            <li><WorkIcon className='intro-icon' /> Brand reinforcement</li>
+                            <li><WorkOutlineOutlinedIcon className='intro-icon' /> Brand reinforcement</li>
                             <li><GiHumanTarget className='intro-icon' /> Local targeting</li>
                         </ul>
                         <div className='read-button'>
@@ -30,7 +31,7 @@ const Visible = () => {
                         </div>
                     </div>
                     <div className='logo col-md-6 order-first'>
-                        <img src={Img} alt='image'></img>
+                        <img src={Img} alt='image' width="100%"></img>
                         <p>FLEX PRINTING | OUTDOOR ADVERTISING | HOARDINGS</p>
                     </div>
                 </div>
