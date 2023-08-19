@@ -11,7 +11,6 @@ const Home = () => {
         <section>
             <Visible />
             <div className='offer-container'>
-
                 <div className='offer'>
                     <h2>We offer</h2>
                     <OfferContainer />
