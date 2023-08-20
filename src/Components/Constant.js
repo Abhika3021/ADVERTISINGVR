@@ -11,6 +11,10 @@ import FlexStandiesAndCanopy from './Services/FlexStandiesAndCanopy';
 import GlowSignBoard from './Services/GlowSignBoard';
 import DealerBoard from './Services/DealerBoard';
 import ReflectiveFlex from './Services/ReflectiveFlex';
+import { FaPrint } from 'react-icons/fa';
+import { FaCogs, FaCheck } from 'react-icons/fa';
+
+
 export const CARDS = [
     {
       title: 'Black back flex',
@@ -109,16 +113,30 @@ export const OFFER = [
   {
     title: 'Flex Printing',
     description: "Offering wide range of high-quality flex materials ensureing vibrant colors, excellent resolution, and durability thus ensureing your message stands out and reaches your target audience effectively.",
-    image: 'card1.jpg',
+    image: <FaPrint size={40} color="#F7DC5A" />,
   },
   {
     title: 'Hoardings',
     description: "With strategically located hoardings in prime locations, we help your brand gain maximum exposure and create a lasting impression on passersby.",
-    image: 'card2.jpg',
+    image:  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    width={58}
+    height={58}
+    fill="none"
+    stroke={'#F7DC5A'}
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <rect x="4" y="6" width="16" height="12" rx="2" ry="2" />
+    <line x1="12" y1="6" x2="12" y2="18" />
+    <line x1="6" y1="12" x2="18" y2="12" />
+  </svg>,
   },
   {
     title: 'Customized Solutions',
     description: "Understanding uniqueness in every business, and cookie-cutter approaches won't cut it. That's why we take a personalized approach to every project, tailoring our services to meet your specific advertising needs and objectives.",
-    image: 'card3.jpg',
+    image: <FaCogs size={40} color="#F7DC5A"  />,
   },
 ];

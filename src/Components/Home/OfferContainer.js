@@ -8,22 +8,38 @@ const OfferContainer = () => {
   return (
     <div className="container">
       <div className='offer-laptop'>
-        <div className='row'>
+        <div className='row cover'>
           {OFFER.map((card, index) => (
-            <div className='col-md-4 col-sm-6'>
-              <Card key={index} title={card.title} description={card.description} image={card.image} />
+            <div className='col-md-4 col-sm-6' key={index}>
+              <Card title={card.title} description={card.description} image={card.image} />
             </div>
           ))}
         </div>
       </div>
-      <div className='offer-mobile'>
-        <Carousel>
+      {/* Add a horizontal scrolling container for mobile view */}
+      <div className="offer-mobile">
+        <div
+          style={{
+            overflowX: 'auto',
+            whiteSpace: 'nowrap',
+            display: 'flex',
+          }}
+        >
           {OFFER.map((card, index) => (
-            <Carousel.Item key={index}>
+            <div
+              key={index}
+              style={{
+                flex: '0 0 80%', // Set card width to 50%
+                margin: '0 5px', // Add some spacing between cards
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center', // Center the text vertically
+              }}
+            >
               <Card title={card.title} description={card.description} image={card.image} />
-            </Carousel.Item>
+            </div>
           ))}
-        </Carousel>
+        </div>
       </div>
     </div>
   );

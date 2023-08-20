@@ -316,12 +316,14 @@ h2 {
   .intro,
   .offer-container,
   .about-container,
-  .brand-container,
   .service-container,
   .mission-container {
     padding: 40px 30px;
   }
 
+  .brand-container{
+    padding: 40px 10px;
+  }
   .intro .visible .read-button .btn {
     width: 100%;
   }
@@ -347,9 +349,16 @@ h2 {
   text-align: center;
   padding-bottom: 30px;
 }
+
+
+
 @media (min-width:800px) {
   .offer-container .offer .offer-mobile{
     display: none;
+  }
+
+  .offer-container .offer .offer-mobile .card{
+    width: 50%;
   }
 }
 @media (max-width:800px) {
@@ -442,6 +451,7 @@ h2 {
 /* CSS Styling for the Card */
 .card {
   width: 100%;
+
   padding: 20px;
   margin-bottom: 20px;
   color: white;
@@ -449,8 +459,16 @@ h2 {
   /* text-align: justify; */
   border: 1px solid #ccc;
   border-radius: 10px;
-  /* height: 50vh; */
+   height: 40vh; 
 }
+
+@media (max-width: 500px) {
+  .card{
+    height: 63vh;
+  }
+}
+
+
 
 .card img {
   width: 100%;
@@ -465,7 +483,10 @@ h2 {
 
 .card p {
   color: white;
+  white-space: pre-line; 
+  max-width: 100%; 
 }
+
 
 /* Brand */
 
@@ -555,7 +576,7 @@ h2 {
 
 @media (max-width: 800px) {
   .why {
-    padding: 0 24px 48px;
+    padding: 0 0px 48px;
   }
 
   .why .whyInner .whyHead .whyTitle {
