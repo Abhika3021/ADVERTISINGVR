@@ -578,7 +578,9 @@ h2 {
   .why {
     padding: 0 0px 48px;
   }
-
+  .why .whyInner .whyHead{
+    padding: 0 35px;
+  }
   .why .whyInner .whyHead .whyTitle {
     font-size: 32px;
   }
@@ -678,5 +680,71 @@ footer .container h2 {
   .container .footer-connect .social-icons {
     display: flex;
     padding-left: 75px;
+  }
+
+}
+
+/* All Services */
+
+.flex-content .advantages .advantages-slider .slide{
+  background: var(--black);
+  padding: 20px;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Add a shadow for a visual separation */
+  transition: transform 0.5s ease;
+}
+
+.slide {
+
+}
+
+/* To remove the margin from the last slide */
+.slick-center .slide:last-child {
+  margin-right: 0;
+}
+
+/* Style for the partially visible portion of the next slide */
+.slick-center .slide + .slide {
+  transform: scale(0.5); /* Adjust the scaling factor as needed */
+  opacity: 0.1; /* Adjust the opacity for the partial slide */
+}
+
+
+@media (max-width:520px) {
+  .why .whyInner .whyHead{
+    padding: 0 22px;
+  }
+}
+@media (max-width:495px) {
+  .why .whyInner .whyHead{
+    padding: 0 16px;
+  }
+}
+@media (max-width:480px) {
+  .why .whyInner .whyHead{
+    padding: 0 99px 0 30px;
+  }
+}
+@media (max-width:459px) {
+  .why .whyInner .whyHead{
+    padding-left: 20px;
+    padding-right: 80px;
+  }
+}
+@media (max-width:430px) {
+  .why .whyInner .whyHead{
+    padding-left: 20px;
+    padding-right: 52px;
+  }
+}
+@media (max-width:404px) {
+  .why .whyInner .whyHead{
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+}
+@media (max-width:375px) {
+  .why .whyInner .whyHead{
+    padding: 0 20px;
   }
 }
