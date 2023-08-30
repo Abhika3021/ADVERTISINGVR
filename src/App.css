@@ -687,9 +687,9 @@ footer .container h2 {
 /* All Services */
 
 .flex-content .advantages .advantages-slider .slide{
-  background: var(--black);
+  /* background: var(--black); */
   padding: 20px;
-  color: white;
+  /* color: white; */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Add a shadow for a visual separation */
   transition: transform 0.5s ease;
 }

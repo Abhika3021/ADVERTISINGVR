@@ -33,7 +33,6 @@ const ReflectiveFlex = () => {
     speed: 500,
     slidesToShow: 3, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    centerMode: true, 
     responsive: responsiveSettings,
   };
   return (
@@ -142,30 +141,30 @@ const ReflectiveFlex = () => {
             </div>
           </div> */}
           <div className="container advantages-slider mb-5">
-          <Slider {...settings}>
-            <div className="slide">
-              <h4>High Visibility:</h4>
-              <p>Particularly in low-light conditions or when illuminated by artificial light sources, significantly enhances safety and the effectiveness of advertisements.</p>
-            </div>
-            <div className="slide">
-              <h4>Enhanced Safety:</h4>
-              <p>Helps drivers and pedestrians quickly recognize important information, even from a distance, reducing the chance of accidents.</p>
-            </div>
-            <div className="slide">
-              <h4>Durable and Weather-Resistant:</h4>
-              <p>Designed to withstand harsh weather conditions, like exposure to sunlight, rain, ensuring a longer lifespan.</p>
-            </div>
-            <div className="slide">
-              <h4>Cost-Effective Solution:</h4>
-              <p>Although having a higher upfront cost compared to regular materials, its long-lasting nature and effectiveness make it a cost-effective solution over time.</p>
-            </div>
-            <div className="slide">
-              <h4>Versatile Applications:</h4>
-              <p>Can easily be customized and applied to various surfaces, making it a versatile material for advertising and safety needs.</p>
-            </div>
-          </Slider>
+            <Slider {...settings}>
+              <div className="slide">
+                <h4>High Visibility:</h4>
+                <p>Particularly in low-light conditions or when illuminated by artificial light sources, significantly enhances safety and the effectiveness of advertisements.</p>
+              </div>
+              <div className="slide">
+                <h4>Enhanced Safety:</h4>
+                <p>Helps drivers and pedestrians quickly recognize important information, even from a distance, reducing the chance of accidents.</p>
+              </div>
+              <div className="slide">
+                <h4>Durable and Weather-Resistant:</h4>
+                <p>Designed to withstand harsh weather conditions, like exposure to sunlight, rain, ensuring a longer lifespan.</p>
+              </div>
+              <div className="slide">
+                <h4>Cost-Effective Solution:</h4>
+                <p>Although having a higher upfront cost compared to regular materials, its long-lasting nature and effectiveness make it a cost-effective solution over time.</p>
+              </div>
+              <div className="slide">
+                <h4>Versatile Applications:</h4>
+                <p>Can easily be customized and applied to various surfaces, making it a versatile material for advertising and safety needs.</p>
+              </div>
+            </Slider>
           </div>
-          
+
 
 
           {/* <ul>
