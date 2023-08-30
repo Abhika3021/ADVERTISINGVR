@@ -530,7 +530,8 @@ h2 {
 }
 
 @media (max-width: 1024px) {
-  .why .whyInner .whyHead .whyTitle {
+  .why .whyInner .whyHead .whyTitle,
+  .uses .usesInner .usesHead .usesTitle {
     font-size: 45px;
   }
 }
@@ -684,30 +685,6 @@ footer .container h2 {
 
 }
 
-/* All Services */
-
-.flex-content .advantages .advantages-slider .slide{
-  /* background: var(--black); */
-  padding: 20px;
-  /* color: white; */
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Add a shadow for a visual separation */
-  transition: transform 0.5s ease;
-}
-
-.slide {
-
-}
-
-/* To remove the margin from the last slide */
-.slick-center .slide:last-child {
-  margin-right: 0;
-}
-
-/* Style for the partially visible portion of the next slide */
-.slick-center .slide + .slide {
-  transform: scale(0.5); /* Adjust the scaling factor as needed */
-  opacity: 0.1; /* Adjust the opacity for the partial slide */
-}
 
 
 @media (max-width:520px) {
@@ -748,3 +725,100 @@ footer .container h2 {
     padding: 0 20px;
   }
 }
+
+/* All Services */
+
+.flex-content .advantages .advantages-slider .slide{
+  /* background: var(--black); */
+  padding: 20px;
+  /* color: white; */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Add a shadow for a visual separation */
+  transition: transform 0.5s ease;
+}
+.flex-header .head h2{
+  font-size: 45px;
+  font-weight: bolder;
+}
+/* Services use */
+
+.uses {
+  padding: 90px 0;
+}
+
+.uses .usesInner {
+  text-align: left;
+}
+
+.uses .usesInner .usesHead {
+  width: 100%;
+}
+
+.uses .usesInner .usesHead .usesTitle {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 140%;
+  margin: 0;
+}
+
+.usesTitle span {
+  padding: 0 25px;
+  border-radius: 12px;
+  margin-right: 5px;
+}
+
+.usesTitle span:first-of-type {
+  background-color: var(--black);
+  white-space: nowrap;
+  color: var(--gold);
+  padding-bottom: 6px;
+}
+
+.usesTitle span:last-of-type {
+  background-color: var(--gold);
+  white-space: nowrap;
+  font-family: 'Laila', sans-serif;
+  padding-right: 16px;
+}
+.uses .usesInner  .usesListItemTitle {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 160%;
+}
+.uses .usesInner .usesBody{
+  margin-top: 20px;
+}
+@media (max-width: 1024px) {
+  .uses .usesInner .usesHead .usesTitle {
+    font-size: 45px;
+  }
+}
+
+.uses .usesInner .usesListItemBody {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  grid-column: 2/3;
+}
+
+@media (max-width: 800px) {
+  .uses {
+    padding: 0 0px 48px;
+  }
+  .uses .usesInner .usesHead{
+    padding: 0 35px;
+  }
+  .flex-header .head h2,
+  .uses .usesInner .usesHead .usesTitle {
+    font-size: 32px;
+  }
+  .uses .usesInner .usesListItemBody {
+    font-size: 16px;
+    line-height: 160%;
+  }
+  .uses .usesInner .usesListItemTitle {
+    font-size: 20px;
+    line-height: 140%;
+  }
+
+}
+
