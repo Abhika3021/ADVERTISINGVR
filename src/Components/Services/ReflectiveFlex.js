@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState} from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import HubTwoToneIcon from '@mui/icons-material/HubTwoTone';
+import { FaCloudSunRain } from 'react-icons/fa';
+import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import EngineeringIcon from '@mui/icons-material/Engineering';
+import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
+import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 
 const ReflectiveFlex = () => {
   const responsiveSettings = [
@@ -35,20 +41,84 @@ const ReflectiveFlex = () => {
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
+
+  const fullContent = `It refers to a specialized type of flexible material used for creating eye-catching outdoor advertisements. This material possesses a unique property: it reflects light, making the printed graphics and text visible even in low-light conditions or when illuminated by headlights at night. It is engineered with microscopic glass beads embedded in its surface, which bounce light back towards its source. This results in enhanced visibility and readability, especially for roadside billboards and signage. The use of reflective flex is strategic for businesses aiming to maximize the impact of their advertising campaigns 24/7, as it ensures that the message remains conspicuous both during the day and at night.
+  This material's durability and weather resistance make it an excellent choice for long-term outdoor applications, ensuring that the advertising investment continues to shine even in adverse weather conditions.`;
+
+  const [isMobileView, setIsMobileView] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  // Check if the screen width is less than a certain breakpoint (e.g., 768px)
+  const checkMobileView = () => {
+    setIsMobileView(window.innerWidth < 768);
+  };
+
+  // Add an event listener to check for screen width changes
+  React.useEffect(() => {
+    checkMobileView();
+    window.addEventListener("resize", checkMobileView);
+    return () => window.removeEventListener("resize", checkMobileView);
+  }, []);
+
   return (
     <div className='container'>
-      <div className="flex-header">
-        <div className="head text-center">
-          <h2>
-            What is Retro-Reflective Flex?
-          </h2>
+    <div className="container advantages-slider mb-5">
+      <Slider {...settings}>
+        <div className="slide">
+
         </div>
-        <div className="head-content">
-          <p>
-            Designed by embedding glass beads or prisms on surface of Retro-reflective flex. When the light strieks, it get bounced back towards its source such as from headlights, making it  highly visible.
-          </p>
+        <div className="slide">
+
         </div>
+        <div className="slide">
+
+        </div>
+        <div className="slide">
+
+        </div>
+        <div className="slide">
+
+        </div>
+      </Slider>
+    </div>
+    <div className="flex-header">
+      <div className="head text-center">
+        <h2>
+          Retro- Reflective
+        </h2>
       </div>
+      <div className="head-content text-center">
+        <p>
+          {isMobileView && !isExpanded
+            ? `${fullContent.slice(0, 200)}...`
+            : fullContent}
+          {isMobileView && !isExpanded && (
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                setIsExpanded(true);
+              }}
+              className="read-more-link"
+            >
+              Read More
+            </a>
+          )}
+          {isMobileView && isExpanded && (
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                setIsExpanded(false);
+              }}
+              className="read-less-link"
+            >
+              Read Less
+            </a>
+          )}
+        </p>
+      </div>
+    </div>
 
       <div className="flex-content">
         <div className="uses">
