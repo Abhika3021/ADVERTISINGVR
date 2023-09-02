@@ -727,6 +727,14 @@ footer .container h2 {
   }
 }
 
+/* Add your CSS styles for the Read More button in mobile view */
+.read-more-link {
+  /* Text color */  
+  cursor: pointer; /* Cursor style */
+}
+
+
+
 /* All Services */
 
 .flex-content .advantages .advantages-slider .slide{
