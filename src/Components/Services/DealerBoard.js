@@ -8,7 +8,6 @@ import AdsClickIcon from '@mui/icons-material/AdsClick';
 import StoreIcon from '@mui/icons-material/Store';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import HistoryIcon from '@mui/icons-material/History';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
 
 const DealerBoard = () => {
 
