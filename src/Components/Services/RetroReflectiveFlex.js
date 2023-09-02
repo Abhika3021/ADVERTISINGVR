@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import ThermostatIcon from '@mui/icons-material/Thermostat';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
+import HistoryIcon from '@mui/icons-material/History';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import AddModeratorIcon from '@mui/icons-material/AddModerator';
 import VisibilityIcon from '@mui/icons-material/Visibility';
@@ -213,9 +213,11 @@ const RetroReflectiveFlex = () => {
                                     <div className="whyListItemBody">Can easily be customized and applied to various surfaces, making it a versatile material for advertising and safety needs.</div>
                                 </div>
                                 <div className="whyListItem">
-                                    <EngineeringIcon className='brand-icon' />
-                                    <div className="whyListItemTitle">Versatility!</div>
-                                    <div className="whyListItemBody">Retro-Reflective flex allows for high-quality, vibrant, and sharp printing, making graphics and text stand out.</div>
+                                    <HistoryIcon className='brand-icon' />
+                                    <div className="whyListItemTitle">24/7 Advertising!</div>
+                                    <div className="whyListItemBody">
+                                    Ideal for outdoor advertising, reas it ensures your message is visible day and night, increasing the effectiveness of your hoarding.
+                                    </div>
                                 </div>
                             </div>
                         </div>
