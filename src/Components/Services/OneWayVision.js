@@ -8,6 +8,10 @@ import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+import ThermostatIcon from '@mui/icons-material/Thermostat';
+import ChecklistIcon from '@mui/icons-material/Checklist';
+import SecurityIcon from '@mui/icons-material/Security';
+import LightModeIcon from '@mui/icons-material/LightMode';
 
 const OneWayVision = () => {
   const responsiveSettings = [
@@ -183,9 +187,9 @@ const OneWayVision = () => {
             <div className='row'>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <SecurityIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Visibility and Privacy:
+                    Visibility and Privacy!
                   </div>
                   <div className="whyListItemBody">
                     Offer privacy to people in urban areas or spaces by providing a clear view of the printed graphic on one side and privacy to other.
@@ -193,9 +197,9 @@ const OneWayVision = () => {
                 </div>
 
                 <div className="whyListItem">
-                  <AutoFixHighIcon className='brand-icon' />
+                  <FaCloudSunRain className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Weather Resistance:
+                    Weather Resistance!
                   </div>
                   <div className="whyListItemBody">
                     Designed to withstand various weather conditions, ensuring  graphics remain vibrant and durable for an extended period.
@@ -203,9 +207,9 @@ const OneWayVision = () => {
                 </div>
 
                 <div className="whyListItem">
-                  <MonetizationOnIcon className='brand-icon' />
+                  <EngineeringIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Easy installation and Removal:
+                    Easy installation and Removal!
                   </div>
                   <div className="whyListItemBody">
                     Making it convenient for businesses to update their advertising campaigns frequently.
@@ -214,27 +218,27 @@ const OneWayVision = () => {
               </div>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <FaCloudSunRain className='brand-icon' />
+                  <LightModeIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    UV Protection:
+                    UV Protection!
                   </div>
                   <div className="whyListItemBody">
                     Designed to provide UV protection, which can help preserve the printed graphics and extend their lifespan.
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <FaCloudSunRain className='brand-icon' />
+                  <ThermostatIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Reduces Glare and Heat:
+                    Reduces Glare and Heat!
                   </div>
                   <div className="whyListItemBody">
                     Help in reduce glare and heat inside buildings and vehicles, providing a more comfortable environment.
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <FaCloudSunRain className='brand-icon' />
+                  <ChecklistIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                  Versatility:
+                  Versatility!
                   </div>
                   <div className="whyListItemBody">
                   Suitable for various applications, including vehicle wraps, window displays, and building wraps.
