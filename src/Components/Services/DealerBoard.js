@@ -238,6 +238,15 @@ const DealerBoard = () => {
                     work 24/7, consistently promoting the business even during non-business hours, hence  maximizes the chances of attracting customers at any time of the day.
                   </div>
                 </div>
+                <div className="whyListItem">
+                  <PersonalVideoIcon className='brand-icon' />
+                  <div className="whyListItemTitle">
+                  Targeted Marketing!
+                  </div>
+                  <div className="whyListItemBody">
+                  Can choose the location of boards to target specific geographic areas, maximizing the effectiveness of their advertising efforts.
+                  </div>
+                </div>
               </div>
             </div>
 
