@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import HubTwoToneIcon from '@mui/icons-material/HubTwoTone';
-import { FaCloudSunRain } from 'react-icons/fa';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+import AlarmOnIcon from '@mui/icons-material/AlarmOn';
+import TuneIcon from '@mui/icons-material/Tune';
+import ReplayIcon from '@mui/icons-material/Replay';
+import ChecklistIcon from '@mui/icons-material/Checklist';
+import PaletteIcon from '@mui/icons-material/Palette';
 
 const StarFlex = () => {
   const responsiveSettings = [
@@ -134,7 +135,7 @@ const StarFlex = () => {
               <ul>
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Outdoor Banners and Hoardings:
+                    Outdoor Banners and Hoardings
                   </h3>
                   <p>
                     ideal due to its robustness and ability to withstand outdoor conditions. It is commonly used for promotional banners, event advertisment
@@ -143,7 +144,7 @@ const StarFlex = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Billboards:
+                    Billboards
                   </h3>
                   <p>
                     It's excellent durability ensures that billboards can withstand exposure to harsh weather conditions, which is crucial for long-term outdoor advertising.
@@ -152,7 +153,7 @@ const StarFlex = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Event Backdrops:
+                    Event Backdrops
                   </h3>
                   <p>
                     During trade show, conference, or stage performance, star flex can be used to create visually striking backdrops that effectively promote brands or enhance the event's theme.
@@ -161,7 +162,7 @@ const StarFlex = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Building Wraps:
+                    Building Wraps
                   </h3>
                   <p>
                     Its size and durability make it suitable for Large-scale advertisements on the facades of buildings  covering substantial surfaces.
@@ -170,7 +171,7 @@ const StarFlex = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Street Banners:
+                    Street Banners
                   </h3>
                   <p>
                     oftenly used to display public messages, event announcements, or seasonal greetings on street poles or lamp posts.
@@ -179,7 +180,7 @@ const StarFlex = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Vehicle Wraps:
+                    Vehicle Wraps
                   </h3>
                   <p>
                     By turning cars, buses, or trucks into moving advertisements, reaching a broader audience while on the road.
@@ -205,26 +206,26 @@ const StarFlex = () => {
               <div className='row'>
                 <div className="whyList col-md-6">
                   <div className="whyListItem">
-                    <PersonalVideoIcon className='brand-icon' />
-                    <div className="whyListItemTitle">Durability:</div>
+                    <AlarmOnIcon className='brand-icon' />
+                    <div className="whyListItemTitle">Durability!</div>
                     <div className="whyListItemBody">
                       Designed to withstand harsh environmental conditions like sunlight, rain, wind, and temperature variations without significant wear and tear making it reliable.
                     </div>
                   </div>
 
                   <div className="whyListItem">
-                    <AutoFixHighIcon className='brand-icon' />
+                    <MonetizationOnIcon className='brand-icon' />
                     <div className="whyListItemTitle">
-                      Cost-Effective:</div>
+                      Cost-Effective!</div>
                     <div className="whyListItemBody">
                       It is relatively affordable, making it a cost-effective choice for large-scale advertising campaigns and outdoor promotions.
                     </div>
                   </div>
 
                   <div className="whyListItem">
-                    <MonetizationOnIcon className='brand-icon' />
+                    <TuneIcon className='brand-icon' />
                     <div className="whyListItemTitle">
-                      Customizable Sizes:
+                      Customizable Sizes!
                     </div>
                     <div className="whyListItemBody">
                       Can be easily cut to the desired dimensions without compromising on quality allowing for customization based on the specific requirements of project.
@@ -234,9 +235,9 @@ const StarFlex = () => {
                 </div>
                 <div className="whyList col-md-6">
                   <div className="whyListItem">
-                    <AutoFixHighIcon className='brand-icon' />
+                    <ReplayIcon className='brand-icon' />
                     <div className="whyListItemTitle">
-                      Reusable:
+                      Reusable!
                     </div>
                     <div className="whyListItemBody">
                       Sometimes can be reused for different events or campaigns, further enhancing their cost-effectiveness.
@@ -244,9 +245,9 @@ const StarFlex = () => {
                   </div>
 
                   <div className="whyListItem">
-                    <AutoFixHighIcon className='brand-icon' />
+                    <PaletteIcon className='brand-icon' />
                     <div className="whyListItemTitle">
-                      Vibrant Printing:
+                      Vibrant Printing!
                     </div>
                     <div className="whyListItemBody">
                       Star flex allows for high-quality, vibrant, and sharp printing, making graphics and text stand out.
@@ -254,9 +255,9 @@ const StarFlex = () => {
                   </div>
 
                   <div className="whyListItem">
-                    <AutoFixHighIcon className='brand-icon' />
+                    <ChecklistIcon className='brand-icon' />
                     <div className="whyListItemTitle">
-                      Versatility:
+                      Versatility!
                     </div>
                     <div className="whyListItemBody">
                       Star flex can be used for various advertising materials, including banners, billboards, and posters.

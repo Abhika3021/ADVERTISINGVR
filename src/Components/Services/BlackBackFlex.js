@@ -3,7 +3,6 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { PiCubeTransparentFill } from 'react-icons/pi';
-import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import ReplayIcon from '@mui/icons-material/Replay';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import VisibilityIcon from '@mui/icons-material/Visibility';
@@ -84,7 +83,7 @@ const BlackBackFlex = () => {
       <div className="flex-header">
         <div className="head text-center">
           <h2>
-            BlackBack Flex?
+            BlackBack Flex
           </h2>
         </div>
         <div className="head-content">
