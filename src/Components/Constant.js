@@ -11,6 +11,7 @@ import FlexStandiesAndCanopy from './Services/FlexStandiesAndCanopy';
 import GlowSignBoard from './Services/GlowSignBoard';
 import DealerBoard from './Services/DealerBoard';
 import ReflectiveFlex from './Services/ReflectiveFlex';
+import RetroReflectiveFlex from './Services/RetroReflectiveFlex';
 import { FaPrint } from 'react-icons/fa';
 import { FaCogs, FaCheck } from 'react-icons/fa';
 
@@ -43,6 +44,13 @@ export const CARDS = [
       image: 'card3.jpg',
       route: 'one-way-vision',
       component: <OneWayVision />
+    },
+    {
+      title: 'Retro-Reflective Flex',
+      description: "",
+      image: 'card3.jpg',
+      route: 'retro-reflective-flex',
+      component: <RetroReflectiveFlex />
     },
     {
       title: 'Reflective Flex',
