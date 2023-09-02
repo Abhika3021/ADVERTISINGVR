@@ -3,7 +3,6 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import EngineeringIcon from '@mui/icons-material/Engineering';
 import ThermostatIcon from '@mui/icons-material/Thermostat';
 import HistoryIcon from '@mui/icons-material/History';
 import ChecklistIcon from '@mui/icons-material/Checklist';

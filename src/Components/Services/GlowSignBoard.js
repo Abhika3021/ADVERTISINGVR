@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import HubTwoToneIcon from '@mui/icons-material/HubTwoTone';
-import { FaCloudSunRain } from 'react-icons/fa';
+import TuneIcon from '@mui/icons-material/Tune';
+import AlarmOnIcon from '@mui/icons-material/AlarmOn';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+import ShowChartIcon from '@mui/icons-material/ShowChart';
+
 
 const GlowSignBoard = () => {
   const responsiveSettings = [
@@ -190,7 +191,7 @@ const GlowSignBoard = () => {
             <div className='row'>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <VisibilityIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Visibility and Impact!
                   </div>
@@ -200,7 +201,7 @@ const GlowSignBoard = () => {
                 </div>
 
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <TuneIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Customizability!
                   </div>
@@ -210,7 +211,7 @@ const GlowSignBoard = () => {
                 </div>
 
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <MonetizationOnIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Cost-Effective!
                   </div>
@@ -221,7 +222,7 @@ const GlowSignBoard = () => {
               </div>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <AlarmOnIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Durability!
                   </div>
@@ -230,7 +231,7 @@ const GlowSignBoard = () => {
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <EnergySavingsLeafIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Energy-Efficient!
                   </div>
@@ -239,7 +240,7 @@ const GlowSignBoard = () => {
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <ShowChartIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Quick Turnaround!
                   </div>
