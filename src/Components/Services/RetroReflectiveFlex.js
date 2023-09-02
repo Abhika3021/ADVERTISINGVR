@@ -2,13 +2,13 @@ import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import HubTwoToneIcon from '@mui/icons-material/HubTwoTone';
-import { FaCloudSunRain } from 'react-icons/fa';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import EngineeringIcon from '@mui/icons-material/Engineering';
+import ThermostatIcon from '@mui/icons-material/Thermostat';
 import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
-
+import ChecklistIcon from '@mui/icons-material/Checklist';
+import AddModeratorIcon from '@mui/icons-material/AddModerator';
+import VisibilityIcon from '@mui/icons-material/Visibility';
 const RetroReflectiveFlex = () => {
     const responsiveSettings = [
         {
@@ -134,7 +134,7 @@ const RetroReflectiveFlex = () => {
                             <ul>
                                 <li>
                                     <h3 className='usesListItemTitle'>
-                                        Traffic Signs and Safety Signage:
+                                        Traffic Signs and Safety Signage
                                     </h3>
                                     <p>
                                         It's properties ensure that these signs remain visible even in low-light situations, especially during nighttime or adverse weather conditions  enhancing road safety.
@@ -143,7 +143,7 @@ const RetroReflectiveFlex = () => {
 
                                 <li>
                                     <h3 className='usesListItemTitle'>
-                                        Advertisements and Hoardings:
+                                        Advertisements and Hoardings
                                     </h3>
                                     <p>
                                         Can grab attention and stand out, particularly during the night when regular non-reflective advertisements might be less visible, making it an excellent choice for marketing campaigns
@@ -152,7 +152,7 @@ const RetroReflectiveFlex = () => {
 
                                 <li>
                                     <h3 className='usesListItemTitle'>
-                                        Emergency and Warning Signage:
+                                        Emergency and Warning Signage
                                     </h3>
                                     <p>
                                         During emergencies or power outages, the reflective properties help people locate exits and important safety information.
@@ -161,7 +161,7 @@ const RetroReflectiveFlex = () => {
 
                                 <li>
                                     <h3 className='usesListItemTitle'>
-                                        Work Zone Safety:
+                                        Work Zone Safety
                                     </h3>
                                     <p>
                                         In construction zones and ,  temporary used as traffic signs, cones, and barrier  along roads enhancing visibility and reducing chances of accidents of workers and motorists.
@@ -185,36 +185,36 @@ const RetroReflectiveFlex = () => {
                         <div className='row'>
                             <div className="whyList col-md-6">
                                 <div className="whyListItem">
-                                    <PersonalVideoIcon className='brand-icon' />
-                                    <div className="whyListItemTitle">High Visibility:</div>
+                                    <VisibilityIcon className='brand-icon' />
+                                    <div className="whyListItemTitle">High Visibility!</div>
                                     <div className="whyListItemBody">Particularly in low-light conditions or when illuminated by artificial light sources, significantly enhances safety and the effectiveness of advertisements.</div>
                                 </div>
                                 <div className="whyListItem">
-                                    <EngineeringIcon className='brand-icon' />
-                                    <div className="whyListItemTitle">Enhanced Safety:</div>
+                                    <AddModeratorIcon className='brand-icon' />
+                                    <div className="whyListItemTitle">Enhanced Safety!</div>
                                     <div className="whyListItemBody">Helps drivers and pedestrians quickly recognize important information, even from a distance, reducing the chance of accidents.</div>
                                 </div>
                                 <div className="whyListItem">
-                                    <EngineeringIcon className='brand-icon' />
-                                    <div className="whyListItemTitle">Durable and Weather-Resistant:</div>
+                                    <ThermostatIcon className='brand-icon' />
+                                    <div className="whyListItemTitle">Durable and Weather-Resistant!</div>
                                     <div className="whyListItemBody">Designed to withstand harsh weather conditions, like exposure to sunlight, rain, ensuring a longer lifespan.</div>
                                 </div>
                             </div>
                             <div className="whyList col-md-6">
                                 <div className="whyListItem">
-                                    <EngineeringIcon className='brand-icon' />
-                                    <div className="whyListItemTitle">Cost-Effective Solution:</div>
+                                    <MonetizationOnIcon className='brand-icon' />
+                                    <div className="whyListItemTitle">Cost-Effective Solution!</div>
                                     <div className="whyListItemBody">Although having a higher upfront cost compared to regular materials, its long-lasting nature and effectiveness make it a cost-effective solution over time.</div>
                                 </div>
 
                                 <div className="whyListItem">
-                                    <EngineeringIcon className='brand-icon' />
-                                    <div className="whyListItemTitle">Versatile Applications:</div>
+                                    <ChecklistIcon className='brand-icon' />
+                                    <div className="whyListItemTitle">Versatile Applications!</div>
                                     <div className="whyListItemBody">Can easily be customized and applied to various surfaces, making it a versatile material for advertising and safety needs.</div>
                                 </div>
                                 <div className="whyListItem">
                                     <EngineeringIcon className='brand-icon' />
-                                    <div className="whyListItemTitle">Versatility:</div>
+                                    <div className="whyListItemTitle">Versatility!</div>
                                     <div className="whyListItemBody">Retro-Reflective flex allows for high-quality, vibrant, and sharp printing, making graphics and text stand out.</div>
                                 </div>
                             </div>

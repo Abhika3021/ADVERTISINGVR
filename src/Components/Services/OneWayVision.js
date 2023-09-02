@@ -2,12 +2,8 @@ import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import HubTwoToneIcon from '@mui/icons-material/HubTwoTone';
 import { FaCloudSunRain } from 'react-icons/fa';
-import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import EngineeringIcon from '@mui/icons-material/Engineering';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 import ThermostatIcon from '@mui/icons-material/Thermostat';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import SecurityIcon from '@mui/icons-material/Security';

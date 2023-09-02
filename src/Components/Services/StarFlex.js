@@ -3,7 +3,6 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 import AlarmOnIcon from '@mui/icons-material/AlarmOn';
 import TuneIcon from '@mui/icons-material/Tune';
 import ReplayIcon from '@mui/icons-material/Replay';
