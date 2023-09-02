@@ -7,7 +7,7 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import AdsClickIcon from '@mui/icons-material/AdsClick';
 import LockClockIcon from '@mui/icons-material/LockClock';
 import Diversity2Icon from '@mui/icons-material/Diversity2';
-
+import { FaEnvira } from 'react-icons/fa'
 const WallPainting = () => {
   const responsiveSettings = [
     {
@@ -137,7 +137,7 @@ const WallPainting = () => {
 
                 <li>
                   <h3>
-                    Artistic Expression          
+                    Artistic Expression
                   </h3>
                   <p>
                     Allow's artists to showcase their creativity and artistic visuals that leave a lasting impact on viewers.
@@ -146,7 +146,7 @@ const WallPainting = () => {
 
                 <li>
                   <h3>
-                    Branding and Promotion          
+                    Branding and Promotion
                   </h3>
                   <p>
                     A well-designed wall painting can enhance brand visibility and recognition, as it becomes a recognizable landmark in the area.
@@ -155,7 +155,7 @@ const WallPainting = () => {
 
                 <li>
                   <h3>
-                    Sports Events and Stadium Advertisements          
+                    Sports Events and Stadium Advertisements
                   </h3>
                   <p>
                     Their wind resistance and high visibility ensure that the advertisements are seen clearly by the audience.
@@ -164,7 +164,7 @@ const WallPainting = () => {
 
                 <li>
                   <h3>
-                    Event and Product Promotion          
+                    Event and Product Promotion
                   </h3>
                   <p>
                     Temporary wall paintings are ideal for promoting specific events or product launches. They can be easily removed or replaced when the promotion period ends.
@@ -189,9 +189,9 @@ const WallPainting = () => {
                   <VisibilityIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Eye-Catching!
-                    </div>
+                  </div>
                   <div className="whyListItemBody">
-                  Can be visually striking and attention-grabbing amd stand out due to their size, artistic appeal, and uniqueness.
+                    Can be visually striking and attention-grabbing amd stand out due to their size, artistic appeal, and uniqueness.
                   </div>
                 </div>
                 <div className="whyListItem">
@@ -200,14 +200,14 @@ const WallPainting = () => {
                     Long-Lasting!
                   </div>
                   <div className="whyListItemBody">
-                  Can withstand harsh weather conditions, making them durable and long-lasting. It do not fade easily, providing a more extended period of visibility
+                    Can withstand harsh weather conditions, making them durable and long-lasting. It do not fade easily, providing a more extended period of visibility
                   </div>
                 </div>
                 <div className="whyListItem">
                   <MonetizationOnIcon className='brand-icon' />
                   <div className="whyListItemTitle">Cost-Effective!</div>
                   <div className="whyListItemBody">
-                  Involve  minimal ongoing costs Unlike electronic advertising, which requires continuous power supply and updates.
+                    Involve  minimal ongoing costs Unlike electronic advertising, which requires continuous power supply and updates.
                   </div>
                 </div>
               </div>
@@ -216,23 +216,23 @@ const WallPainting = () => {
                   <AdsClickIcon className='brand-icon' />
                   <div className="whyListItemTitle">Local Targeting!</div>
                   <div className="whyListItemBody">
-                  When strategically placed in areas with high footfall or heavy traffic, it target their local audienc effectively.
+                    When strategically placed in areas with high footfall or heavy traffic, it target their local audienc effectively.
                   </div>
                 </div>
                 <div className="whyListItem">
                   <Diversity2Icon className='brand-icon' />
                   <div className="whyListItemTitle">Engaging and Memorable!</div>
                   <div className="whyListItemBody">
-                  People tend to remember impactful art, making it more likely for the message or brand to stick in their minds.
+                    People tend to remember impactful art, making it more likely for the message or brand to stick in their minds.
                   </div>
                 </div>
-                {/* <div className="whyListItem">
-                  <EngineeringIcon className='brand-icon' />
-                  <div className="whyListItemTitle">Easy Installation and Maintenance!</div>
+                <div className="whyListItem">
+                  <FaEnvira className='brand-icon' />
+                  <div className="whyListItemTitle">Environmentally Friendly !</div>
                   <div className="whyListItemBody">
-                    Making the setup process efficient and hassle-free, ensuring the advertisements retain their effectiveness throughout their display period.
+                    Some wall printing methods use eco-friendly inks and materials, reducing the environmental impact.
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
 

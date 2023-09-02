@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import HubTwoToneIcon from '@mui/icons-material/HubTwoTone';
-import { FaCloudSunRain } from 'react-icons/fa';
+import { PiCubeTransparentFill } from 'react-icons/pi';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+import ReplayIcon from '@mui/icons-material/Replay';
+import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import DataUsageIcon from '@mui/icons-material/DataUsage';
+import ChecklistIcon from '@mui/icons-material/Checklist';
 
 const BlackBackFlex = () => {
   const responsiveSettings = [
@@ -183,57 +184,54 @@ const BlackBackFlex = () => {
             <div className='row'>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
-                  <div className="whyListItemTitle">Enhanced Opacity</div>
+                  <AutoAwesomeIcon className='brand-icon' />
+                  <div className="whyListItemTitle">Enhanced Opacity!</div>
                   <div className="whyListItemBody">
                     Ensuring that light from behind the banner or hoarding does not show through the printed graphics  enhancing the visibility and clarity.
                   </div>
                 </div>
 
                 <div className="whyListItem">
-                  <AutoFixHighIcon className='brand-icon' />
-                  <div className="whyListItemTitle">No Show-Through:</div>
+                  <PiCubeTransparentFill className='brand-icon' />
+                  <div className="whyListItemTitle">No Show-Through!</div>
                   <div className="whyListItemBody">
                     Eliminating this issue of Visibility of one side from the other when light passes through it, maintaining the integrity of the design.
                   </div>
                 </div>
 
                 <div className="whyListItem">
-                  <MonetizationOnIcon className='brand-icon' />
-                  <div className="whyListItemTitle">Versatile Usage:</div>
+                  <DataUsageIcon className='brand-icon' />
+                  <div className="whyListItemTitle">Versatile Usage!</div>
                   <div className="whyListItemBody">
                     Suitable for both single-sided and double-sided printing applications, making it a versatile option for various outdoor advertising needs.
                   </div>
                 </div>
-
-                <div className="whyList col-md-6">
-                  <div className="whyListItem">
-                    <FaCloudSunRain className='brand-icon' />
-                    <div className="whyListItemTitle">Reusability:</div>
-                    <div className="whyListItemBody">
-                      With proper care and storage, it can be reused for future campaigns, maximizing the return on investment.
-                    </div>
+              </div>
+              <div className="whyList col-md-6">
+                <div className="whyListItem">
+                  <ReplayIcon className='brand-icon' />
+                  <div className="whyListItemTitle">Reusability!</div>
+                  <div className="whyListItemBody">
+                    With proper care and storage, it can be reused for future campaigns, maximizing the return on investment.
                   </div>
-
-                  <div className="whyListItem">
-                    <EngineeringIcon className='brand-icon' />
-                    <div className="whyListItemTitle">Versatile Applications:</div>
-                    <div className="whyListItemBody">
-                      Can easily be customized and applied to various surfaces, making it a versatile material for advertising and safety needs.
-                    </div>
+                </div>
+                <div className="whyListItem">
+                  <ChecklistIcon className='brand-icon' />
+                  <div className="whyListItemTitle">Versatile Applications!</div>
+                  <div className="whyListItemBody">
+                    Can easily be customized and applied to various surfaces, making it a versatile material for advertising and safety needs.
                   </div>
-
-                  <div className="whyListItem">
-                    <EngineeringIcon className='brand-icon' />
-                    <div className="whyListItemTitle">High Visibility:</div>
-                    <div className="whyListItemBody">
-                      Particularly in low-light conditions or when illuminated by artificial light sources,  significantly enhances safety and the effectiveness of advertisements.
-                    </div>
+                </div>
+                <div className="whyListItem">
+                  <VisibilityIcon className='brand-icon' />
+                  <div className="whyListItemTitle">High Visibility!</div>
+                  <div className="whyListItemBody">
+                    Particularly in low-light conditions or when illuminated by artificial light sources,  significantly enhances safety and the effectiveness of advertisements.
                   </div>
                 </div>
               </div>
-
             </div>
+
           </div>
         </div>
       </div>
