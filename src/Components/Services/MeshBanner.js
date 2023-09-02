@@ -232,6 +232,26 @@ const MeshBanner = () => {
                     Used for applications, including building wraps, fence wraps, scaffold covers, and hoardings.
                   </div>
                 </div>
+
+                <div className="whyListItem">
+                  <PersonalVideoIcon className='brand-icon' />
+                  <div className="whyListItemTitle">
+                  Lightweight!
+                  </div>
+                  <div className="whyListItemBody">
+                  Mesh banners are lightweight, making them easier to install and transport compared to solid vinyl banners.
+                  </div>
+                </div>
+
+                <div className="whyListItem">
+                  <PersonalVideoIcon className='brand-icon' />
+                  <div className="whyListItemTitle">
+                  Cost-Efficiency!
+                  </div>
+                  <div className="whyListItemBody">
+                  They are often more cost-effective than solid vinyl banners, making them a budget-friendly option for large-scale advertising.
+                  </div>
+                </div>
               </div>
             </div>
 
