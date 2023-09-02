@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -42,22 +42,22 @@ const BackLightFlex = () => {
     responsive: responsiveSettings,
   };
 
-    const fullContent = `"Backlight flex" denotes a specialized type of flexible substrate engineered for deployment in backlit advertising displays. These displays are characterized by their illumination originating from a rear source, commonly employing technologies such as LEDs. Backlight flex materials possess a semi-translucent quality, facilitating the transmission of light through them. This attribute enhances the luminosity and vividness of the printed imagery or textual content when subjected to backlighting. Consequently, backlight flex emerges as the preferred choice for crafting attention-grabbing and illuminated promotional exhibits, including billboards, posters, and signage designed to maintain visibility throughout both daytime and nighttime hours.`;
-  
-    const [isMobileView, setIsMobileView] = useState(false);
-    const [isExpanded, setIsExpanded] = useState(false);
-  
-    // Check if the screen width is less than a certain breakpoint (e.g., 768px)
-    const checkMobileView = () => {
-      setIsMobileView(window.innerWidth < 768);
-    };
-  
-    // Add an event listener to check for screen width changes
-    React.useEffect(() => {
-      checkMobileView();
-      window.addEventListener("resize", checkMobileView);
-      return () => window.removeEventListener("resize", checkMobileView);
-    }, []);
+  const fullContent = `"Backlight flex" denotes a specialized type of flexible substrate engineered for deployment in backlit advertising displays. These displays are characterized by their illumination originating from a rear source, commonly employing technologies such as LEDs. Backlight flex materials possess a semi-translucent quality, facilitating the transmission of light through them. This attribute enhances the luminosity and vividness of the printed imagery or textual content when subjected to backlighting. Consequently, backlight flex emerges as the preferred choice for crafting attention-grabbing and illuminated promotional exhibits, including billboards, posters, and signage designed to maintain visibility throughout both daytime and nighttime hours.`;
+
+  const [isMobileView, setIsMobileView] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  // Check if the screen width is less than a certain breakpoint (e.g., 768px)
+  const checkMobileView = () => {
+    setIsMobileView(window.innerWidth < 768);
+  };
+
+  // Add an event listener to check for screen width changes
+  React.useEffect(() => {
+    checkMobileView();
+    window.addEventListener("resize", checkMobileView);
+    return () => window.removeEventListener("resize", checkMobileView);
+  }, []);
 
   return (
     <div className='container'>
@@ -87,35 +87,35 @@ const BackLightFlex = () => {
           </h2>
         </div>
         <div className="head-content text-center">
-        <p>
-        {isMobileView && !isExpanded
-          ? `${fullContent.slice(0, 200)}...`
-          : fullContent}
-        {isMobileView && !isExpanded && (
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              setIsExpanded(true);
-            }}
-            className="read-more-link"
-          >
-            Read More
-          </a>
-        )}
-        {isMobileView && isExpanded && (
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              setIsExpanded(false);
-            }}
-            className="read-less-link"
-          >
-            Read Less
-          </a>
-        )}
-      </p>
+          <p>
+            {isMobileView && !isExpanded
+              ? `${fullContent.slice(0, 200)}...`
+              : fullContent}
+            {isMobileView && !isExpanded && (
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsExpanded(true);
+                }}
+                className="read-more-link"
+              >
+                Read More
+              </a>
+            )}
+            {isMobileView && isExpanded && (
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsExpanded(false);
+                }}
+                className="read-less-link"
+              >
+                Read Less
+              </a>
+            )}
+          </p>
         </div>
       </div>
 
