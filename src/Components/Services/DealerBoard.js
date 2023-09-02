@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import HubTwoToneIcon from '@mui/icons-material/HubTwoTone';
-import { FaCloudSunRain } from 'react-icons/fa';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import EngineeringIcon from '@mui/icons-material/Engineering';
+import TuneIcon from '@mui/icons-material/Tune';
+import AdsClickIcon from '@mui/icons-material/AdsClick';
+import StoreIcon from '@mui/icons-material/Store';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import HistoryIcon from '@mui/icons-material/History';
 import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 
 const DealerBoard = () => {
 
@@ -192,7 +193,7 @@ const DealerBoard = () => {
             <div className='row'>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <VisibilityIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     High Visibility!
                   </div>
@@ -201,7 +202,7 @@ const DealerBoard = () => {
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <TuneIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Customizability!
                   </div>
@@ -210,7 +211,7 @@ const DealerBoard = () => {
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <MonetizationOnIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Cost-Effective!
                   </div>
@@ -221,7 +222,7 @@ const DealerBoard = () => {
               </div>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <StoreIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Impactful Marketing!
                   </div>
@@ -230,7 +231,7 @@ const DealerBoard = () => {
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <HistoryIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Round-the-Clock Promotion!
                   </div>
@@ -239,7 +240,7 @@ const DealerBoard = () => {
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <AdsClickIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                   Targeted Marketing!
                   </div>

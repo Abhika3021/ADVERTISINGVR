@@ -212,6 +212,17 @@ const StarFlex = () => {
                     </div>
                   </div>
 
+                  
+                  <div className="whyListItem">
+                    <ReplayIcon className='brand-icon' />
+                    <div className="whyListItemTitle">
+                      Reusable!
+                    </div>
+                    <div className="whyListItemBody">
+                      Sometimes can be reused for different events or campaigns, further enhancing their cost-effectiveness.
+                    </div>
+                  </div>
+
                   <div className="whyListItem">
                     <MonetizationOnIcon className='brand-icon' />
                     <div className="whyListItemTitle">
@@ -221,6 +232,9 @@ const StarFlex = () => {
                     </div>
                   </div>
 
+
+                </div>
+                <div className="whyList col-md-6">
                   <div className="whyListItem">
                     <TuneIcon className='brand-icon' />
                     <div className="whyListItemTitle">
@@ -231,17 +245,6 @@ const StarFlex = () => {
                     </div>
                   </div>
 
-                </div>
-                <div className="whyList col-md-6">
-                  <div className="whyListItem">
-                    <ReplayIcon className='brand-icon' />
-                    <div className="whyListItemTitle">
-                      Reusable!
-                    </div>
-                    <div className="whyListItemBody">
-                      Sometimes can be reused for different events or campaigns, further enhancing their cost-effectiveness.
-                    </div>
-                  </div>
 
                   <div className="whyListItem">
                     <PaletteIcon className='brand-icon' />
