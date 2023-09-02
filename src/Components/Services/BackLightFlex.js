@@ -70,69 +70,69 @@ const BackLightFlex = () => {
         </div>
         <div className="head-content">
           <p>
-            Designed for illuminated graphics and advertisements creating eye-catching displays that stand out both during the day and at night.          
-            </p>
+            Designed for illuminated graphics and advertisements creating eye-catching displays that stand out both during the day and at night.
+          </p>
         </div>
       </div>
 
       <div className="flex-content">
         <div className="uses">
-            <div className="usesInner container-fluid">
-              <div className='usesHead'>
-                <div className='usesHeadTitle'>
-                  <h2 class="usesTitle">
-                    <span>BackLight</span> Flex <span style={{ display: 'none' }}></span>is used for:-
-                  </h2>
-                </div>
-              </div>
-              <div className="usesBody">
-                <ul>
-                  <li>
-                    <h3 className='usesListItemTitle'>
-                      Billboards and Hoardings
-                    </h3>
-                    <p>
-                      When strategically placed in high traffic area, it's Backlit feature enhances visibility, making it easily readable even from a distance
-                    </p>
-                  </li>
-
-                  <li>
-                    <h3 className='usesListItemTitle'>
-                      Transit Advertising
-                    </h3>
-                    <p>
-                      Whe Placed on bus shelters, metro stations, and airport terminals it's illuminated graphics draw the eyes of passersby and commuters.              
-                      </p>
-                  </li>
-
-                  <li>
-                    <h3 className='usesListItemTitle'>
-                      Shopping Mall Displays
-                    </h3>
-                    <p>
-                      Used for creating attractive and dynamic displays, From promotional banners to illuminated signs, enhancing the ambiance and attract potential customers to stores and specific products.             
-                      </p>
-                  </li>
-
-                  <li>
-                    <h3 className='usesListItemTitle'>
-                      Exhibition Graphics
-                    </h3>
-                    <p>
-                      Helps to make booths and stalls more visible and appealing, creating a captivating atmosphere that draws visitors to the displays.
-                    </p>
-                  </li>
-                </ul>
+          <div className="usesInner container-fluid">
+            <div className='usesHead'>
+              <div className='usesHeadTitle'>
+                <h2 class="usesTitle">
+                  What are the <span>uses</span> of <span>BackLight</span> Flex
+                </h2>
               </div>
             </div>
+            <div className="usesBody">
+              <ul>
+                <li>
+                  <h3 className='usesListItemTitle'>
+                    Billboards and Hoardings
+                  </h3>
+                  <p>
+                    When strategically placed in high traffic area, it's Backlit feature enhances visibility, making it easily readable even from a distance
+                  </p>
+                </li>
+
+                <li>
+                  <h3 className='usesListItemTitle'>
+                    Transit Advertising
+                  </h3>
+                  <p>
+                    Whe Placed on bus shelters, metro stations, and airport terminals it's illuminated graphics draw the eyes of passersby and commuters.
+                  </p>
+                </li>
+
+                <li>
+                  <h3 className='usesListItemTitle'>
+                    Shopping Mall Displays
+                  </h3>
+                  <p>
+                    Used for creating attractive and dynamic displays, From promotional banners to illuminated signs, enhancing the ambiance and attract potential customers to stores and specific products.
+                  </p>
+                </li>
+
+                <li>
+                  <h3 className='usesListItemTitle'>
+                    Exhibition Graphics
+                  </h3>
+                  <p>
+                    Helps to make booths and stalls more visible and appealing, creating a captivating atmosphere that draws visitors to the displays.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
+        </div>
 
         <div className="why">
           <div className="whyInner container-fluid">
             <div className='whyHead'>
               <div className='whyHeadTitle'>
                 <h2 className="whyTitle">
-                  What are the <span>Advantages</span> of using <span>BackLight</span> Flex    
+                  What are the <span>Advantages</span> of using <span>BackLight</span> Flex
                 </h2>
               </div>
             </div>
