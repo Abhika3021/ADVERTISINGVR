@@ -86,7 +86,7 @@ const BlackBackFlex = () => {
             BlackBack Flex
           </h2>
         </div>
-        <div className="head-content">
+        <div className="head-content text-center">
           <p>
             {isMobileView && !isExpanded
               ? `${fullContent.slice(0, 200)}...`
@@ -133,7 +133,7 @@ const BlackBackFlex = () => {
               <ul>
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Billboards and Hoardings
+                   Banner Printing
                   </h3>
                   <p>
                     Used in illuminated signs or lightboxes, as it prevents the light from shining through, maintaining the intended appearance of the display.
