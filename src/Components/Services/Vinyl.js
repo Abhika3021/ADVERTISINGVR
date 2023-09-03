@@ -134,7 +134,7 @@ const Vinyl = () => {
               <ul>
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Durability:
+                    Durability
                   </h3>
                   <p>
                     Resistant to water, weather, and UV rays, withstand harsh conditions like rain, sunlight, and temperature fluctuations, without fading or deteriorating quickly.
@@ -143,7 +143,7 @@ const Vinyl = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Versatility:
+                    Versatility
                   </h3>
                   <p>
                     Comes in various types and finishes including self-adhesive vinyl, cast vinyl, and calendared viny, having characteristics, such as adhesive properties and flexibility, making it suitable for various applications.
@@ -152,7 +152,7 @@ const Vinyl = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Vibrant Printing:
+                    Vibrant Printing
                   </h3>
                   <p>
                     Vinyl's smooth and glossy surface allows for high-quality and vibrant printing results making them eye-catching and visually appealing
@@ -161,7 +161,7 @@ const Vinyl = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Cost-Effectiveness:
+                    Cost-Effectiveness
                   </h3>
                   <p>
                     Offers excellent value for money due to its long-lasting nature and the ability to produce stunning visuals at a reasonable cost.
@@ -169,7 +169,7 @@ const Vinyl = () => {
                 </li>
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Easy Maintenance:
+                    Easy Maintenance
 
                   </h3>
                   <p>
@@ -178,7 +178,7 @@ const Vinyl = () => {
                 </li>
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Customizability:
+                    Customizability
 
                   </h3>
                   <p>

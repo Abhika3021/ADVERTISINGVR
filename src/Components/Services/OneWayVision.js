@@ -133,7 +133,7 @@ const OneWayVision = () => {
               <ul>
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Building Wraps and Hoardings:
+                    Building Wraps and Hoardings
                   </h3>
                   <p>
                     Allowing vibrant and eye-catching graphics to be displayed while still allowing people inside buildings to see through the material.
@@ -142,7 +142,7 @@ const OneWayVision = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Vehicle Wraps:
+                    Vehicle Wraps
                   </h3>
                   <p>
                     wraping commercial cars, buses, and even personal vehicles, enabling businesses to promote their products without obstructing the driver's vision from inside the vehicle.
@@ -151,7 +151,7 @@ const OneWayVision = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Storefront Advertising:
+                    Storefront Advertising
                   </h3>
                   <p>
                     Retail stores often use windows to showcase advertisements to passersby without obstructing view for potential customers inside the store.
@@ -160,7 +160,7 @@ const OneWayVision = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Exhibition and Event Signage:
+                    Exhibition and Event Signage
                   </h3>
                   <p>
                     Used in creaeting visually stunning displays that attract attention while maintaining visibility for visitors inside the booth.

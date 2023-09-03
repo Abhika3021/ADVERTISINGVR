@@ -142,7 +142,7 @@ const BlackBackFlex = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Double-Sided Banners:
+                    Double-Sided Banners
                   </h3>
                   <p>
                     When displayed different images on either side of a banner, it ensures the content on one side doesn't show through content on the other side.
@@ -151,7 +151,7 @@ const BlackBackFlex = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Event Backdrops:
+                    Event Backdrops
                   </h3>
                   <p>
                     Used where the backdrop needs to block out any distracting elements behind it, providing a clean and professional look              </p>
@@ -159,7 +159,7 @@ const BlackBackFlex = () => {
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Exhibition Graphics:
+                    Exhibition Graphics
                   </h3>
                   <p>
                     Used for large graphics or banners that need to be displayed against a variety of backgrounds without any distortion or interference.
