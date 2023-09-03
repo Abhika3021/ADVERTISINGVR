@@ -136,55 +136,46 @@ const Vinyl = () => {
               <ul>
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Durability
+                  Banner Printing
                   </h3>
                   <p>
-                    Resistant to water, weather, and UV rays, withstand harsh conditions like rain, sunlight, and temperature fluctuations, without fading or deteriorating quickly.
+                  Used to print banners for various purposes due to its durability and vibrant color reproduction.
                   </p>
                 </li>
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Versatility
+                  Hoarding Displays
                   </h3>
                   <p>
-                    Comes in various types and finishes including self-adhesive vinyl, cast vinyl, and calendared viny, having characteristics, such as adhesive properties and flexibility, making it suitable for various applications.
+                  Cab printed and used for large hoarding displays due to their weather-resistant properties.
+
                   </p>
                 </li>
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Vibrant Printing
+                  Vehicle Graphics
                   </h3>
                   <p>
-                    Vinyl's smooth and glossy surface allows for high-quality and vibrant printing results making them eye-catching and visually appealing
+                  Vinyl wraps are applied to vehicles for advertising, turning them into moving billboards.
                   </p>
                 </li>
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Cost-Effectiveness
+                  Event Backdrops
                   </h3>
                   <p>
-                    Offers excellent value for money due to its long-lasting nature and the ability to produce stunning visuals at a reasonable cost.
+                  Used to create backdrops for events, trade shows, and exhibitions.
                   </p>
                 </li>
                 <li>
                   <h3 className='usesListItemTitle'>
-                    Easy Maintenance
-
+                  Outdoor Signage
                   </h3>
                   <p>
-                    Regular cleaning with mild detergent and water can keep the hoardings and banners looking fresh and new for an extended period.
-                  </p>
-                </li>
-                <li>
-                  <h3 className='usesListItemTitle'>
-                    Customizability
-
-                  </h3>
-                  <p>
-                    Easily cut and shaped according to the desired specifications. enabling businesses to tailor their hoardings and banners to fit specific locations and marketing strategies.
+                  Vinyl signs are weather-resistant and durable, making them suitable for outdoor advertising.
                   </p>
                 </li>
               </ul>
