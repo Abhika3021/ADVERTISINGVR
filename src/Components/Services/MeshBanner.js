@@ -3,8 +3,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
-import TuneIcon from '@mui/icons-material/Tune';
+import ChecklistIcon from '@mui/icons-material/Checklist';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import { TbWindmillFilled } from 'react-icons/tb'
 import AlarmOnIcon from '@mui/icons-material/AlarmOn';
@@ -225,7 +224,7 @@ const MeshBanner = () => {
               </div>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <TuneIcon className='brand-icon' />
+                  <ChecklistIcon className='brand-icon' />
                   <div className="whyListItemTitle">
                     Versatility!
                   </div>

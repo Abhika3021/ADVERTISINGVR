@@ -10,10 +10,9 @@ import FlexSignages from './Services/FlexSignages';
 import FlexStandiesAndCanopy from './Services/FlexStandiesAndCanopy';
 import GlowSignBoard from './Services/GlowSignBoard';
 import DealerBoard from './Services/DealerBoard';
-import ReflectiveFlex from './Services/ReflectiveFlex';
 import RetroReflectiveFlex from './Services/RetroReflectiveFlex';
 import { FaPrint } from 'react-icons/fa';
-import { FaCogs, FaCheck } from 'react-icons/fa';
+import { FaCogs } from 'react-icons/fa';
 
 
 export const CARDS = [
@@ -51,13 +50,6 @@ export const CARDS = [
       image: 'card3.jpg',
       route: 'retro-reflective-flex',
       component: <RetroReflectiveFlex />
-    },
-    {
-      title: 'Reflective Flex',
-      description: "",
-      image: 'card3.jpg',
-      route: 'reflective-flex',
-      component: <ReflectiveFlex />
     },
     {
       title: 'Vinyl',

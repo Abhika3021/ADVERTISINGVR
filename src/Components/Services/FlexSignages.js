@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import HubTwoToneIcon from '@mui/icons-material/HubTwoTone';
 import { FaCloudSunRain } from 'react-icons/fa';
+import FindReplaceIcon from '@mui/icons-material/FindReplace';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import EngineeringIcon from '@mui/icons-material/Engineering';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+import TuneIcon from '@mui/icons-material/Tune';
+import ChecklistIcon from '@mui/icons-material/Checklist';
+import HighQualityIcon from '@mui/icons-material/HighQuality';
 
 const FlexSignages = () => {
   const responsiveSettings = [
@@ -183,21 +183,21 @@ const FlexSignages = () => {
             <div className='row'>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <PersonalVideoIcon className='brand-icon' />
+                  <MonetizationOnIcon className='brand-icon' />
                   <div className="whyListItemTitle">Cost-Effective!</div>
                   <div className="whyListItemBody">
                     Relatively inexpensive compared to materials like metal, wood, or glass makeing it economical for businesses.
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <AutoFixHighIcon className='brand-icon' />
+                  <FaCloudSunRain className='brand-icon' />
                   <div className="whyListItemTitle">Weather Resistance!</div>
                   <div className="whyListItemBody">
                   Highly durable and designed to withstand weather conditions, including rain, wind, and sunlight ensuring long-lasting displays.
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <MonetizationOnIcon className='brand-icon' />
+                  <HighQualityIcon className='brand-icon' />
                   <div className="whyListItemTitle">High-Quality Printing!</div>
                   <div className="whyListItemBody">
                   Allowing vibrant colors and sharp graphics making them visually appealing in capturing the attention of the target audience.
@@ -206,21 +206,21 @@ const FlexSignages = () => {
               </div>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <FaCloudSunRain className='brand-icon' />
+                  <TuneIcon className='brand-icon' />
                   <div className="whyListItemTitle">Customizability!</div>
                   <div className="whyListItemBody">
                   Allowing businesses to tailor their advertisements to specific sizes, designs, and messages, creating impactful marketing campaigns.
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <HubTwoToneIcon className='brand-icon' />
+                  <ChecklistIcon className='brand-icon' />
                   <div className="whyListItemTitle">Versatility!</div>
                   <div className="whyListItemBody">
                   Can be used for both indoor and outdoor applications, making it a versatile option for a wide range of advertising needs.
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <EngineeringIcon className='brand-icon' />
+                  <FindReplaceIcon className='brand-icon' />
                   <div className="whyListItemTitle">Replaceability!</div>
                   <div className="whyListItemBody">
                   It can be replaced without significant expenses, allowing businesses to stay up-to-date with their promotions.
