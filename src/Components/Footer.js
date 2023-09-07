@@ -33,31 +33,23 @@ const Footer = () => {
                             </h2>
                             <p>
                                 ColourX<br />
-                                Plot no.30, Near Fire Bridge,<br />
-                                Swarg Asharam Road, Hapur,<br />
+                                1st floor,<br />
+                                Gyan lok main gate, Hapur,<br />
                                 UttarPradesh, 245101
                             </p>
 
-                            <a href="mailto:vrprinters245101@gmail.com">
+                            <a href="mailto:colourxads@gmail.com">
                                 <div className="icon">
-                                    <MailOutlineIcon />
+                                    <MailOutlineIcon style={{color:'#F7DC5A',fontSize:40}}/>
                                 </div>
-                                vrprinters245101@gmail.com
+                                colourxads@gmail.com
                             </a>
-
-                            <a href="mailto:vrads245101@gmail.com">
-                                vrads245101@gmail.com
-                            </a>
-
-                            <a href="tel: +91 8650067500" className="mb-2">
+                            <a href="tel: +91 9758586358" className="mb-2">
                                 <div className="icon">
-                                    <PhoneIcon />
+                                    <PhoneIcon style={{color:'#F7DC5A',fontSize:40}}/>
                                 </div>
-                                +91 86500 67500
-
-                            </a>
-                            <a href="tel: +91 9758586358">
                                 +91 97585 86358
+
                             </a>
                         </div>
                     </div>
@@ -66,11 +58,11 @@ const Footer = () => {
                         <div>
                             <h2>Get In Touch!</h2>
                             <div className='social-icons'>
-                            <a href="#"><WhatsAppIcon /></a>
+                            <a href="https://wa.me/9758586358"><WhatsAppIcon /></a>
                             <a href="#"><LinkedInIcon /></a>
                             <a href="#"><FacebookIcon /></a>
                             <a href="#"><YouTubeIcon /></a>
-                            <a href="#"><RoomIcon /></a>
+                            <a href="https://maps.app.goo.gl/q8Zpb8TUDyByNPP77"><RoomIcon /></a>
                             </div>
                         </div>
                     </div>

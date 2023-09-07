@@ -1,25 +1,28 @@
+import { Grid, Paper, TextField } from '@mui/material'
+import Textarea from '@mui/joy/Textarea';
+import Button from '@mui/joy/Button';
+
 import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div>
-      <form>
-        <div class="mb-3">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name" />
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
+    <Grid conatiner width={'50%'} className='my-2 mx-auto'>
+      <Paper elevation={0}>
+        <Grid align={'center'}>
+          <h2>Get in Touch</h2>
+        </Grid>
+        <Grid align={'center'}>
+          <p>
+          Please fill out the form below and our support team will get back to you within 48 hours. 
+          </p>
+        </Grid>
+        <TextField id="outlined-basic" label="Name" variant="outlined" className='m-2 w-100' />
+        <TextField id="outlined-basic" label="Email" variant="outlined" className='m-2 w-100' />
+        <TextField id="outlined-basic" label="Phone no" variant="outlined" className='m-2 w-100' />
+        <Textarea minRows={2} placeholder="Comment" variant="outlined" size="lg" className='m-2 w-100' />
+        <Button variant="solid" className='m-2' style={{ backgroundColor: '#F7DC5A', color: 'black', width:'40%', fontSize:'20px' }}>Submit</Button>
+      </Paper>
+    </Grid>
   )
 }
 
