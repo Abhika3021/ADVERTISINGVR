@@ -66,7 +66,7 @@ export const CARDS = [
       component: <GlowSignBoard />
     },
     {
-      title: 'Delaer Board',
+      title: 'Dealer Board',
       description: "",
       image: 'card3.jpg',
       route: 'dealer-board',

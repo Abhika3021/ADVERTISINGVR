@@ -5,7 +5,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import { FaCloudSunRain } from 'react-icons/fa';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import PaletteIcon from '@mui/icons-material/Palette';
 import AddModeratorIcon from '@mui/icons-material/AddModerator';
