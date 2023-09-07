@@ -118,22 +118,23 @@ const LedSignBoard = () => {
         </div>
       </div>
       <div className="flex-content">
-        <div className="uses">
-          <div className="usesInner container-fluid">
-            <div className='usesHead'>
-              <div className='usesHeadTitle'>
-                <h2 class="usesTitle">
-                  What are the <span>uses</span> and <span>Advantages</span> of <span>LedSignBoard</span>
+      <div className="why">
+          <div className="whyInner container-fluid">
+            <div className='whyHead'>
+              <div className='whyHeadTitle'>
+                <h2 className="whyTitle">
+                  What are the <span>Advantages</span> of using <span>LedSigBoard</span>
                 </h2>
               </div>
             </div>
-            <div className="usesBody">
-              <ul>
-                <li>
-                  <h3 className='usesListItemTitle'>
+            <div className='row'>
+              <div className="whyList col-md-6">
+                <div className="whyListItem">
+                  <SecurityIcon className='brand-icon' />
+                  <div className="whyListItemTitle">
                     Enhanced Visibility:
                   </h3>
-                  <p>
+                   <div className="whyListItemBody">
                     Known for their high brightness and vibrant colors, making them easily visible even in broad daylight attracting attention from pedestrians
                   </p>
                 </li>
@@ -141,7 +142,7 @@ const LedSignBoard = () => {
                   <h3 className='usesListItemTitle'>
                     Energy Efficiency:
                   </h3>
-                  <p>
+                   <div className="whyListItemBody">
                     Compared to traditional lighting solutions, LED sign boards consume less electricity, resulting in reduced operating costs
                   </p>
                 </li>
@@ -149,7 +150,7 @@ const LedSignBoard = () => {
                   <h3 className='usesListItemTitle'>
                     Longevity and Durability:
                   </h3>
-                  <p>
+                   <div className="whyListItemBody">
                     Having longer lifespan that  last for tens of thousands of hours before requiring replacement, ensuring long-term cost savings and minimal maintenance .
                   </p>
                 </li>
@@ -157,7 +158,7 @@ const LedSignBoard = () => {
                   <h3 className='usesListItemTitle'>
                     Customization Options:
                   </h3>
-                  <p>
+                   <div className="whyListItemBody">
                     Businesses can design displays to showcase a variety of content, including text, images, animations, and even videos, making them ideal for promotional campaigns.
                   </p>
                 </li>
@@ -165,7 +166,7 @@ const LedSignBoard = () => {
                   <h3 className='usesListItemTitle'>
                     Real-time Content Updates:
                   </h3>
-                  <p>
+                   <div className="whyListItemBody">
                     By connecting to a centralized control system, for displaying time-sensitive information, special offers, ensuring message to remains relevant and up-to-date.
                   </p>
                 </li>
@@ -173,7 +174,7 @@ const LedSignBoard = () => {
                   <h3 className='usesListItemTitle'>
                     Cost-Effective Advertising:
                   </h3>
-                  <p>
+                   <div className="whyListItemBody">
                     Businesses can attract more attention, deliver visually appealing messages, and create a lasting impact on potential customers.
                   </p>
                 </li>
@@ -181,7 +182,7 @@ const LedSignBoard = () => {
                   <h3 className='usesListItemTitle'>
                     Low Maintenance:
                   </h3>
-                  <p>
+                   <div className="whyListItemBody">
                     Robust design and long lifespan mean that businesses do not have to frequently replace bulbs or make costly repairs, saving both time and money.
                   </p>
                 </li>
@@ -189,7 +190,7 @@ const LedSignBoard = () => {
                   <h3 className='usesListItemTitle'>
                     Versatility in Size and Shape:
                   </h3>
-                  <p>
+                   <div className="whyListItemBody">
                     By designing in various shapes and sizes to fit specific requirements. allowing unique and eye-catching displays that stand out from the competition.
                   </p>
                 </li>
@@ -207,7 +208,7 @@ const LedSignBoard = () => {
                 <h4>
                   Wind Resistance:
                 </h4>
-                <p>
+                 <div className="whyListItemBody">
                   It's perforated design allows air to flow through the banner, reducing wind load on it, preventing tearing and ensures the banner remains intact.
                 </p>
               </div>
