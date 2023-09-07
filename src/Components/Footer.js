@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className='footer-logo col-sm-4 col-xs'>
                         <div>
                             <img src={Img} alt='image' style={{ height: '50px', width: '60px' }}></img>
-                            <h2>VR PRINTERS</h2>
+                            <h2>ColourX</h2>
                             <div className='bottomnav'>
                                 <Link to='/' className='nav-link'>Home</Link>
                                 <Link to='/about-us' className='nav-link'>About us</Link>
@@ -32,7 +32,7 @@ const Footer = () => {
                                 Contact Us!
                             </h2>
                             <p>
-                                VR Printers<br />
+                                ColourX<br />
                                 Plot no.30, Near Fire Bridge,<br />
                                 Swarg Asharam Road, Hapur,<br />
                                 UttarPradesh, 245101
@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="copyright">© <span className="currentyear"></span> VR Printers Hapur. All
+            <div className="copyright">© <span className="currentyear"></span> ColourX. All
                 Rights Reserved.
             </div>
         </footer>
