@@ -6,6 +6,7 @@ import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import ThermostatIcon from '@mui/icons-material/Thermostat';
 import HistoryIcon from '@mui/icons-material/History';
 import ChecklistIcon from '@mui/icons-material/Checklist';
+import AlarmOnIcon from '@mui/icons-material/AlarmOn';
 import AddModeratorIcon from '@mui/icons-material/AddModerator';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 const FlexStandiesAndCanopy = () => {
@@ -266,4 +267,4 @@ const FlexStandiesAndCanopy = () => {
   )
 }
 
-export default FlexStandiesAndCanopy
+export default FlexStandiesAndCanopy;

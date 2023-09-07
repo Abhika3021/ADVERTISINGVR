@@ -186,12 +186,15 @@ const RetroReflectiveFlex = () => {
                                 <div className="whyListItem">
                                     <VisibilityIcon className='brand-icon' />
                                     <div className="whyListItemTitle">High Visibility!</div>
-                                    <div className="whyListItemBody">Particularly in low-light conditions or when illuminated by artificial light sources, significantly enhances safety and the effectiveness of advertisements.</div>
+                                    <div className="whyListItemBody">Particularly in low-light conditions or when illuminated by artificial light sources, significantly enhances safety and the effectiveness of advertisements.
+                                    </div>
                                 </div>
                                 <div className="whyListItem">
                                     <AddModeratorIcon className='brand-icon' />
-                                    <div className="whyListItemTitle">Enhanced Safety!</div>
-                                    <div className="whyListItemBody">Helps drivers and pedestrians quickly recognize important information, even from a distance, reducing the chance of accidents.</div>
+                                    <div className="whyListItemTitle">Enhanced Safety!
+                                    </div>
+                                    <div className="whyListItemBody">Helps drivers and pedestrians quickly recognize important information, even from a distance, reducing the chance of accidents.
+                                    </div>
                                 </div>
                                 <div className="whyListItem">
                                     <ThermostatIcon className='brand-icon' />
@@ -215,7 +218,7 @@ const RetroReflectiveFlex = () => {
                                     <HistoryIcon className='brand-icon' />
                                     <div className="whyListItemTitle">24/7 Advertising!</div>
                                     <div className="whyListItemBody">
-                                    Ideal for outdoor advertising, reas it ensures your message is visible day and night, increasing the effectiveness of your hoarding.
+                                        Ideal for outdoor advertising, reas it ensures your message is visible day and night, increasing the effectiveness of your hoarding.
                                     </div>
                                 </div>
                             </div>
