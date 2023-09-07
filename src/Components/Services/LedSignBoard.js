@@ -134,7 +134,7 @@ const LedSignBoard = () => {
                 <div className="whyListItem">
                   <VisibilityIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Enhanced Visibility:
+                    Enhanced Visibility!
                   </div>
                   <div className="whyListItemBody">
                     Known for their high brightness and vibrant colors, making them easily visible even in broad daylight attracting attention from pedestrians
@@ -143,7 +143,7 @@ const LedSignBoard = () => {
                 <div className="whyListItem">
                   <EnergySavingsLeafIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Energy Efficiency:
+                    Energy Efficiency!
                   </div>
                   <div className="whyListItemBody">
                     Compared to traditional lighting solutions, LED sign boards consume less electricity, resulting in reduced operating costs
@@ -152,7 +152,7 @@ const LedSignBoard = () => {
                 <div className="whyListItem">
                   <AlarmOnIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Longevity and Durability:
+                    Longevity and Durability!
                   </div>
                   <div className="whyListItemBody">
                     Having longer lifespan that  last for tens of thousands of hours before requiring replacement, ensuring long-term cost savings and minimal maintenance .
@@ -161,7 +161,7 @@ const LedSignBoard = () => {
                 <div className="whyListItem">
                   <TuneIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Customization Options:
+                    Customization Options!
                   </div>
                   <div className="whyListItemBody">
                     Businesses can design displays to showcase a variety of content, including text, images, animations, and even videos, making them ideal for promotional campaigns.
@@ -172,7 +172,7 @@ const LedSignBoard = () => {
                 <div className="whyListItem">
                   <UpdateIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Real-time Content Updates:
+                    Real-time Content Updates!
                   </div>
                   <div className="whyListItemBody">
                     By connecting to a centralized control system, for displaying time-sensitive information, special offers, ensuring message to remains relevant and up-to-date.
@@ -181,7 +181,7 @@ const LedSignBoard = () => {
                 <div className="whyListItem">
                   <MonetizationOnIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Cost-Effective Advertising:
+                    Cost-Effective Advertising!
                   </div>
                   <div className="whyListItemBody">
                     Businesses can attract more attention, deliver visually appealing messages, and create a lasting impact on potential customers.
@@ -190,7 +190,7 @@ const LedSignBoard = () => {
                 <div className="whyListItem">
                   <EngineeringIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Low Maintenance:
+                    Low Maintenance!
                   </div>
                   <div className="whyListItemBody">
                     Robust design and long lifespan mean that businesses do not have to frequently replace bulbs or make costly repairs, saving both time and money.
@@ -199,7 +199,7 @@ const LedSignBoard = () => {
                 <div className="whyListItem">
                   <ChecklistIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                    Versatility in Size and Shape:
+                    Versatility in Size and Shape!
                   </div>
                   <div className="whyListItemBody">
                     By designing in various shapes and sizes to fit specific requirements. allowing unique and eye-catching displays that stand out from the competition.

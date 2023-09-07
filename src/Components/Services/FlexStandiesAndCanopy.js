@@ -3,10 +3,11 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import ThermostatIcon from '@mui/icons-material/Thermostat';
 import HistoryIcon from '@mui/icons-material/History';
-import ChecklistIcon from '@mui/icons-material/Checklist';
-import AlarmOnIcon from '@mui/icons-material/AlarmOn';
+import TuneIcon from '@mui/icons-material/Tune';
+import { BsArrowsFullscreen } from 'react-icons/bs'
+import {BiTransfer} from 'react-icons/bi'
+import EngineeringIcon from '@mui/icons-material/Engineering';
 import AddModeratorIcon from '@mui/icons-material/AddModerator';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 const FlexStandiesAndCanopy = () => {
@@ -138,14 +139,14 @@ const FlexStandiesAndCanopy = () => {
             <div className='row'>
               <div className="whyList col-md-6">
                 <div className="whyListItem">
-                  <VisibilityIcon className='brand-icon' />
+                  <BiTransfer className='brand-icon' />
                   <div className="whyListItemTitle"> Portability!</div>
                   <div className="whyListItemBody">
                     Can be quickly assembled and disassembled, making them ideal for events where mobility is essential.
                   </div>
                 </div>
                 <div className="whyListItem">
-                  <AddModeratorIcon className='brand-icon' />
+                  <TuneIcon className='brand-icon' />
                   <div className="whyListItemTitle"> Customizability!</div>
                   <div className="whyListItemBody">
                     Using vibrant graphics, images, and text to create eye-catching displays to attract attention and effectively conveying message.
@@ -160,9 +161,8 @@ const FlexStandiesAndCanopy = () => {
                     offer a cost-effective way to market products and services, as compared to other marketing products.
                   </div>
                 </div>
-
                 <div className="whyListItem">
-                  <ChecklistIcon className='brand-icon' />
+                  <HistoryIcon className='brand-icon' />
                   <div className="whyListItemTitle"> Reusability!</div>
                   <div className="whyListItemBody">
                     Its durable can withstand multiple uses if handled with care making it sustainable option for promotional activities.
@@ -242,16 +242,17 @@ const FlexStandiesAndCanopy = () => {
                 </div>
                 <div className="whyList col-md-6">
                   <div className="whyListItem">
-                    <MonetizationOnIcon className='brand-icon' />
+                    <BsArrowsFullscreen className='brand-icon' />
                     <div className="whyListItemTitle">Large Advertising Space!</div>
                     <div className="whyListItemBody">
                       The large surface area of a canopy allows for more extensive and impactful advertising, making a lasting impression.
                     </div>
                   </div>
-
                   <div className="whyListItem">
-                    <ChecklistIcon className='brand-icon' />
-                    <div className="whyListItemTitle"> Easy to Install!</div>
+                    <EngineeringIcon className='brand-icon' />
+                    <div className="whyListItemTitle">
+                      Easy to Install!
+                      </div>
                     <div className="whyListItemBody">
                       Easy to setup and dismantle.  Can be quickly deployed at any locations, providing flexibility in event planning and execution.
                     </div>
