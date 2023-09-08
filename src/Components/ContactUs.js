@@ -1,52 +1,55 @@
-import { Grid, Paper, TextField } from '@mui/material'
+import { Grid, Paper, TextField } from '@mui/material';
 import Textarea from '@mui/joy/Textarea';
 import Button from '@mui/joy/Button';
 import React, { useState } from 'react';
 
 const ContactUs = () => {
-  // Define state variables to store form data
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [comment, setComment] = useState('');
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [errors, setErrors] = useState({}); // State for validation errors
 
-  // Function to handle form submission
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  function validateForm(formData) {
+    const newErrors = {};
 
-    // Create a data object with form values
-    const formData = {
-      name,
-      email,
-      phone,
-      comment,
-    };
-
-    // Send the form data to the Google Apps Script web app
-    try {
-      const response = await fetch(
-        'https://script.google.com/macros/s/AKfycbwRW3KvpnzqeWKO7wRrRkf2j9uafNl68g77u-0ByzVOt0FnFRF_1yUQq7qkjJiF8LYU/exec', // Replace with your web app URL
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-
-      if (response.ok) {
-        // Form submitted successfully, you can show a success message or redirect the user
-        console.log('Form submitted successfully');
-      } else {
-        // Handle errors, e.g., show an error message to the user
-        console.error('Form submission failed');
-      }
-    } catch (error) {
-      // Handle network errors
-      console.error('Network error:', error);
+    if (!formData.get('name')) {
+      newErrors.name = 'Name is required';
     }
-  };
+
+    if (!formData.get('email')) {
+      newErrors.email = 'Email is required';
+    } else if (!/\S+@\S+\.\S+/.test(formData.get('email'))) {
+      newErrors.email = 'Invalid email format';
+    }
+
+    if (!formData.get('phone')) {
+      newErrors.phone = 'Phone number is required';
+    } else if (!/^\d{10}$/.test(formData.get('phone'))) {
+      newErrors.phone = 'Phone number must be 10 digits';
+    }
+
+    setErrors(newErrors);
+
+    // Return true if there are no errors, false otherwise
+    return Object.keys(newErrors).length === 0;
+  }
+
+  function Submit(e) {
+    e.preventDefault();
+    const formEle = document.querySelector("form");
+    const formDatab = new FormData(formEle);
+
+    if (validateForm(formDatab)) {
+      fetch("https://script.google.com/macros/s/AKfycbzy24jhwiCwDT6t_f843As9ynN2mS39UovSE3T4AYmtzKmnyAaFZ7Ek5tmi9MzxdJJF/exec", {
+        method: "POST",
+        body: formDatab
+      })
+        .then(() => {
+          setIsSubmitted(true); // Set the submission status to true on success
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    }
+  }
 
   return (
     <Grid container width={'50%'} className='my-2 mx-auto'>
@@ -55,44 +58,53 @@ const ContactUs = () => {
           <h2>Get in Touch</h2>
         </Grid>
         <Grid align={'center'}>
-          <p>Please fill out the form below and our support team will get back to you within 48 hours.</p>
+          {isSubmitted ? (
+            <div className="success-message">
+              Successfully submitted. Our team will contact you soon.
+            </div>
+          ) : (
+            <div>
+              <p>Please fill out the form below, and our support team will get back to you within 48 hours.</p>
+            </div>
+          )}
         </Grid>
-        <form onSubmit={handleSubmit}>
+
+        <form className="form" onSubmit={(e) => Submit(e)}>
           <TextField
-            id="name"
+            name="name"
             label="Name"
             variant="outlined"
             className='m-2 w-100'
-            value={name}
-            onChange={(e) => setName(e.target.value)}
             required
+            error={!!errors.name}
+            helperText={errors.name}
           />
           <TextField
-            id="email"
+            name="email"
             label="Email"
             variant="outlined"
             className='m-2 w-100'
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
             required
+            error={!!errors.email}
+            helperText={errors.email}
           />
           <TextField
-            id="phone"
+            name="phone"
             label="Phone no"
             variant="outlined"
             className='m-2 w-100'
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
+            maxLength='10'
+            required
+            error={!!errors.phone}
+            helperText={errors.phone}
           />
           <Textarea
-            id="comment"
+            name="comment"
             minRows={2}
             placeholder="Comment"
             variant="outlined"
             size="lg"
             className='m-2 w-100'
-            value={comment}
-            onChange={(e) => setComment(e.target.value)}
             required
           />
           <Button
