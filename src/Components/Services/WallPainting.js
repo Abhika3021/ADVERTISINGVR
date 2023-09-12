@@ -8,6 +8,9 @@ import AdsClickIcon from '@mui/icons-material/AdsClick';
 import LockClockIcon from '@mui/icons-material/LockClock';
 import Diversity2Icon from '@mui/icons-material/Diversity2';
 import { FaEnvira } from 'react-icons/fa'
+import Img1 from '../../images/services/wall painting/1.jpg'
+import Img2 from '../../images/services/wall painting/2.webp'
+import Img3 from '../../images/services/wall painting/3.webp'
 const WallPainting = () => {
   const responsiveSettings = [
     {
@@ -36,7 +39,7 @@ const WallPainting = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -56,22 +59,16 @@ const WallPainting = () => {
 
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Wall Painting" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Wall Painting" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Wall Painting" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>

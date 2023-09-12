@@ -8,6 +8,9 @@ import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import DataUsageIcon from '@mui/icons-material/DataUsage';
 import ChecklistIcon from '@mui/icons-material/Checklist';
+import Img1 from '../../images/services/black back/baldota-hoarding.jpg'
+import Img2 from '../../images/services/black back/hoarding-500x500-1.jpg'
+import Img3 from '../../images/services/black back/hoarding-advertisement-service.jpg'
 
 const BlackBackFlex = () => {
   const responsiveSettings = [
@@ -37,7 +40,7 @@ const BlackBackFlex = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -61,22 +64,16 @@ const BlackBackFlex = () => {
 
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
-        <Slider {...settings}>
+      <div className="container advantages-slider my-5 w-50 mx-auto">
+      <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Black back Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Black back Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Black back Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>

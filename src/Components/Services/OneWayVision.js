@@ -8,6 +8,9 @@ import ThermostatIcon from '@mui/icons-material/Thermostat';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import SecurityIcon from '@mui/icons-material/Security';
 import LightModeIcon from '@mui/icons-material/LightMode';
+import Img1 from '../../images/services/one way/Introducing-Our-New-One-Way-Vision-Film-Ultravision_0dcb9a687eb39761cab0a9745efca456_8877a1e41a9899e9d1bb1f264f777a6f.jpg'
+import Img2 from '../../images/services/one way/One-Way-Vision-print.jpg'
+import Img3 from '../../images/services/one way/one-way-vision-film-1590553298-5453023.jpeg'
 
 const OneWayVision = () => {
   const responsiveSettings = [
@@ -37,7 +40,7 @@ const OneWayVision = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -61,22 +64,16 @@ const OneWayVision = () => {
   }, []);
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img3} alt="One way vision" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="One way vision" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img1} alt="One way vision" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>
@@ -234,10 +231,10 @@ const OneWayVision = () => {
                 <div className="whyListItem">
                   <ChecklistIcon className='brand-icon' />
                   <div className="whyListItemTitle">
-                  Versatility!
+                    Versatility!
                   </div>
                   <div className="whyListItemBody">
-                  Suitable for various applications, including vehicle wraps, window displays, and building wraps.
+                    Suitable for various applications, including vehicle wraps, window displays, and building wraps.
                   </div>
                 </div>
               </div>

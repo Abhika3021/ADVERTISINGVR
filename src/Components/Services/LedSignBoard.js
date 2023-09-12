@@ -10,6 +10,9 @@ import ChecklistIcon from '@mui/icons-material/Checklist';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import TuneIcon from '@mui/icons-material/Tune';
 import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
+import Img1 from '../../images/services/led/1.jpg'
+import Img2 from '../../images/services/led/2.jpg'
+import Img3 from '../../images/services/led/3.png'
 const LedSignBoard = () => {
 
   const responsiveSettings = [
@@ -39,7 +42,7 @@ const LedSignBoard = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -62,22 +65,16 @@ const LedSignBoard = () => {
   }, []);
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="LED sign Board" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="LED sign Board" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="LED sign Board" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>

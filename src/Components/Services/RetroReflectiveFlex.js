@@ -8,6 +8,10 @@ import HistoryIcon from '@mui/icons-material/History';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import AddModeratorIcon from '@mui/icons-material/AddModerator';
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import Img1 from '../../images/services/reflective/1.webp'
+import Img2 from '../../images/services/reflective/retro-reflective-board-1518085244-3634819.jpg'
+import Img3 from '../../images/services/reflective/retro-reflective-sign-boards.jpg'
+
 const RetroReflectiveFlex = () => {
     const responsiveSettings = [
         {
@@ -36,7 +40,7 @@ const RetroReflectiveFlex = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3, // Number of slides visible at a time
+        slidesToShow: 1, // Number of slides visible at a time
         slidesToScroll: 1, // Number of slides to scroll
         responsive: responsiveSettings,
     };
@@ -61,22 +65,16 @@ const RetroReflectiveFlex = () => {
 
     return (
         <div className='container'>
-            <div className="container advantages-slider mb-5">
+            <div className="container advantages-slider my-5 w-50 mx-auto">
                 <Slider {...settings}>
                     <div className="slide">
-
+                        <img src={Img1} alt="Retro Reflective Flex" style={{ height: '50vh', width: '100%' }} />
                     </div>
                     <div className="slide">
-
+                        <img src={Img2} alt="Retro Reflective Flex" style={{ height: '50vh', width: '100%' }} />
                     </div>
                     <div className="slide">
-
-                    </div>
-                    <div className="slide">
-
-                    </div>
-                    <div className="slide">
-
+                        <img src={Img3} alt="Retro Reflective Flex" style={{ height: '50vh', width: '100%' }} />
                     </div>
                 </Slider>
             </div>

@@ -8,6 +8,9 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import { TbWindmillFilled } from 'react-icons/tb'
 import AlarmOnIcon from '@mui/icons-material/AlarmOn';
 import ScaleIcon from '@mui/icons-material/Scale';
+import Img1 from '../../images/services/mesh/1.jpg'
+import Img2 from '../../images/services/mesh/2.webp'
+import Img3 from '../../images/services/mesh/3.png'
 
 const MeshBanner = () => {
 
@@ -38,7 +41,7 @@ const MeshBanner = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -61,22 +64,16 @@ const MeshBanner = () => {
   }, []);
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Mesh Banner" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Mesh Banner" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Mesh Banner" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>

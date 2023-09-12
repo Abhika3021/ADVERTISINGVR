@@ -8,6 +8,9 @@ import AdsClickIcon from '@mui/icons-material/AdsClick';
 import StoreIcon from '@mui/icons-material/Store';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import HistoryIcon from '@mui/icons-material/History';
+import Img1 from '../../images/services/dealer board/1.jpg'
+import Img2 from '../../images/services/dealer board/2.jpg'
+import Img3 from '../../images/services/dealer board/dealer-board-1523615419-3779187.jpeg'
 
 const DealerBoard = () => {
 
@@ -38,7 +41,7 @@ const DealerBoard = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -61,22 +64,16 @@ const DealerBoard = () => {
   }, []);
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Dealer Board" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Dealer Board" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Dealer Board" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>

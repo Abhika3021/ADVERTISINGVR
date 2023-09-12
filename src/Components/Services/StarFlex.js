@@ -8,6 +8,9 @@ import TuneIcon from '@mui/icons-material/Tune';
 import ReplayIcon from '@mui/icons-material/Replay';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import PaletteIcon from '@mui/icons-material/Palette';
+import Img1 from '../../images/services/star/flex-banner-2-500x500.webp'
+import Img2 from '../../images/services/star/2.png'
+import Img3 from '../../images/services/star/3.png'
 
 const StarFlex = () => {
   const responsiveSettings = [
@@ -37,7 +40,7 @@ const StarFlex = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -61,22 +64,16 @@ const StarFlex = () => {
 
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Star Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Star Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Star Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>
@@ -212,7 +209,7 @@ const StarFlex = () => {
                     </div>
                   </div>
 
-                  
+
                   <div className="whyListItem">
                     <ReplayIcon className='brand-icon' />
                     <div className="whyListItemTitle">

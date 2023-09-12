@@ -17,7 +17,7 @@ const Header = () => {
                 <div className='container-fluid '>
                     <div className='laptop'>
                     <div className='laptop-logo'>
-                        <img src={Img} alt='image' style={{ height: '50px', width: '60px' }}></img>
+                        <img src={Img} alt='Logo' style={{ height: '50px', width: '60px' }} />
                         <h2>ColourX</h2>
                     </div>
                     <nav>

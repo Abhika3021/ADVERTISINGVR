@@ -8,6 +8,9 @@ import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+import Img1 from '../../images/services/blacklit/Backlit_Flex_Banner_Print_1.jpg'
+import Img2 from '../../images/services/blacklit/Impresión-Película-Backlit-HP-printika-1-1024x1024.jpg'
+import Img3 from '../../images/services/blacklit/backlit-flex-board-500x500.webp'
 
 const BackLightFlex = () => {
   const responsiveSettings = [
@@ -61,22 +64,16 @@ const BackLightFlex = () => {
 
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Blacklit Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Blacklit Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Blacklit Flex" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>

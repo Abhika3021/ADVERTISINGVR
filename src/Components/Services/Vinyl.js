@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -8,7 +8,9 @@ import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import PaletteIcon from '@mui/icons-material/Palette';
 import AddModeratorIcon from '@mui/icons-material/AddModerator';
-
+import Img1 from '../../images/services/vinyl/3.png'
+import Img2 from '../../images/services/vinyl/outdoor-hoarding-flex-board.jpg'
+import Img3 from '../../images/services/vinyl/vinyl-flex-board.jpg'
 
 const Vinyl = () => {
   const responsiveSettings = [
@@ -38,7 +40,7 @@ const Vinyl = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -63,22 +65,16 @@ const Vinyl = () => {
 
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Vinyl" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Vinyl" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Vinyl" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>
@@ -127,7 +123,7 @@ const Vinyl = () => {
             <div className='usesHead'>
               <div className='usesHeadTitle'>
                 <h2 class="usesTitle">
-                  What are the <span>uses</span> of <span>Vinyl</span> 
+                  What are the <span>uses</span> of <span>Vinyl</span>
                 </h2>
               </div>
             </div>
@@ -135,46 +131,46 @@ const Vinyl = () => {
               <ul>
                 <li>
                   <h3 className='usesListItemTitle'>
-                  Banner Printing
+                    Banner Printing
                   </h3>
                   <p>
-                  Used to print banners for various purposes due to its durability and vibrant color reproduction.
+                    Used to print banners for various purposes due to its durability and vibrant color reproduction.
                   </p>
                 </li>
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                  Hoarding Displays
+                    Hoarding Displays
                   </h3>
                   <p>
-                  Cab printed and used for large hoarding displays due to their weather-resistant properties.
+                    Cab printed and used for large hoarding displays due to their weather-resistant properties.
 
                   </p>
                 </li>
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                  Vehicle Graphics
+                    Vehicle Graphics
                   </h3>
                   <p>
-                  Vinyl wraps are applied to vehicles for advertising, turning them into moving billboards.
+                    Vinyl wraps are applied to vehicles for advertising, turning them into moving billboards.
                   </p>
                 </li>
 
                 <li>
                   <h3 className='usesListItemTitle'>
-                  Event Backdrops
+                    Event Backdrops
                   </h3>
                   <p>
-                  Used to create backdrops for events, trade shows, and exhibitions.
+                    Used to create backdrops for events, trade shows, and exhibitions.
                   </p>
                 </li>
                 <li>
                   <h3 className='usesListItemTitle'>
-                  Outdoor Signage
+                    Outdoor Signage
                   </h3>
                   <p>
-                  Vinyl signs are weather-resistant and durable, making them suitable for outdoor advertising.
+                    Vinyl signs are weather-resistant and durable, making them suitable for outdoor advertising.
                   </p>
                 </li>
               </ul>
@@ -187,7 +183,7 @@ const Vinyl = () => {
             <div className='whyHead'>
               <div className='whyHeadTitle'>
                 <h2 className="whyTitle">
-                  What are the <span>Advantages</span> of using <span>Vinyl</span> 
+                  What are the <span>Advantages</span> of using <span>Vinyl</span>
                 </h2>
               </div>
             </div>

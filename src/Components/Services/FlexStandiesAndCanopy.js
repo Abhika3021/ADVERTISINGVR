@@ -6,10 +6,18 @@ import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import HistoryIcon from '@mui/icons-material/History';
 import TuneIcon from '@mui/icons-material/Tune';
 import { BsArrowsFullscreen } from 'react-icons/bs'
-import {BiTransfer} from 'react-icons/bi'
+import { BiTransfer } from 'react-icons/bi'
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import AddModeratorIcon from '@mui/icons-material/AddModerator';
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import Img1 from '../../images/services/flex standees/2.jpg'
+import Img2 from '../../images/services/flex standees/3.webp'
+import Img3 from '../../images/services/flex standees/images.jpg'
+import Img4 from '../../images/services/flex standees/roll-up-standee.jpeg'
+import Img5 from '../../images/services/canopy/1.webp'
+import Img6 from '../../images/services/canopy/2.webp'
+import Img7 from '../../images/services/canopy/3.webp'
+
 const FlexStandiesAndCanopy = () => {
   const responsiveSettings = [
     {
@@ -38,7 +46,7 @@ const FlexStandiesAndCanopy = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -67,22 +75,19 @@ const FlexStandiesAndCanopy = () => {
 
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Flex Standees" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Flex Standees" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img3} alt="Flex Standees" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img4} alt="Flex Standees" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>
@@ -174,10 +179,25 @@ const FlexStandiesAndCanopy = () => {
 
         </div>
 
+
+        <div className="container advantages-slider my-5 w-50 mx-auto">
+          <Slider {...settings}>
+            <div className="slide">
+              <img src={Img5} alt="Canopy" style={{ height: '50vh', width: '100%' }} />
+            </div>
+            <div className="slide">
+              <img src={Img6} alt="Canopy" style={{ height: '50vh', width: '100%' }} />
+            </div>
+            <div className="slide">
+              <img src={Img7} alt="Canopy" style={{ height: '50vh', width: '100%' }} />
+            </div>
+          </Slider>
+        </div>
+
         <div className="flex-header">
           <div className="head text-center">
             <h2>
-               Canopy
+              Canopy
             </h2>
           </div>
           <div className="head-content text-center">
@@ -252,7 +272,7 @@ const FlexStandiesAndCanopy = () => {
                     <EngineeringIcon className='brand-icon' />
                     <div className="whyListItemTitle">
                       Easy to Install!
-                      </div>
+                    </div>
                     <div className="whyListItemBody">
                       Easy to setup and dismantle.  Can be quickly deployed at any locations, providing flexibility in event planning and execution.
                     </div>

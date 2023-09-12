@@ -8,7 +8,9 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 import EnergySavingsLeafIcon from '@mui/icons-material/EnergySavingsLeaf';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
-
+import Img1 from '../../images/services/glow/backlit-glow-sign-board-500x500.webp'
+import Img2 from '../../images/services/glow/flex-vinyl-glow-sign-board.jpg'
+import Img3 from '../../images/services/glow/glow-sign-board-500x500.webp'
 
 const GlowSignBoard = () => {
   const responsiveSettings = [
@@ -38,7 +40,7 @@ const GlowSignBoard = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Number of slides visible at a time
+    slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
     responsive: responsiveSettings,
   };
@@ -63,22 +65,16 @@ const GlowSignBoard = () => {
 
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Glow Sign Board" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Glow Sign Board" style={{ height: '50vh', width: '100%' }} />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Glow Sign Board" style={{ height: '50vh', width: '100%' }} />
           </div>
         </Slider>
       </div>
