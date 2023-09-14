@@ -21,14 +21,14 @@ const Visible = () => {
                             <li><WorkOutlineOutlinedIcon className='intro-icon' /> Brand reinforcement</li>
                             <li><GiHumanTarget className='intro-icon' /> Local targeting</li>
                         </ul>
-                        <div className='read-button'>
+                        {/* <div className='read-button'>
                             <Button className='btn' style={{
                                 backgroundColor: '#F7DC5A',
                                 color: 'black',
                                 borderRadius: 10,
                                 fontSize: 18
                             }} variant="contained">Read More</Button>
-                        </div>
+                        </div> */}
                     </div>
                     <div className='logo col-md-6 order-first'>
                         <img src={Img} alt='image' width="100%"/>
