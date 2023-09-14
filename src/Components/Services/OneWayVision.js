@@ -13,36 +13,13 @@ import Img2 from '../../images/services/one way/One-Way-Vision-print.jpg'
 import Img3 from '../../images/services/one way/one-way-vision-film-1590553298-5453023.jpeg'
 
 const OneWayVision = () => {
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContent = `It refers to a specialized printing technique that enables visuals on a display, such as billboards or window graphics, to be visible from one side while appearing opaque from the other. This effect is achieved through the use of a perforated vinyl material. 
@@ -67,13 +44,13 @@ const OneWayVision = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img3} alt="One way vision" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="One way vision" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="One way vision" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="One way vision" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img1} alt="One way vision" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="One way vision" className='service-img' />
           </div>
         </Slider>
       </div>

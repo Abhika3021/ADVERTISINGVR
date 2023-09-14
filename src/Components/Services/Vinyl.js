@@ -13,36 +13,13 @@ import Img2 from '../../images/services/vinyl/outdoor-hoarding-flex-board.jpg'
 import Img3 from '../../images/services/vinyl/vinyl-flex-board.jpg'
 
 const Vinyl = () => {
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContent = `In this context, refers to a versatile synthetic material renowned for its durability and suitability for large-format advertising. It is commonly used as the substrate or medium upon which vibrant graphics, advertisements, and messages are printed. Vinyl, in this industry, typically comes in rolls of varying thicknesses and finishes, allowing for customization based on specific project requirements. Its notable attributes include weather resistance, UV stability, and robust tear resistance, making it an ideal choice for outdoor signage and hoardings. Vinyl's flexibility enables it to conform to diverse surfaces, including billboards, vehicle wraps, banners, and building wraps.
@@ -68,13 +45,13 @@ const Vinyl = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="Vinyl" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="Vinyl" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="Vinyl" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="Vinyl" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="Vinyl" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="Vinyl" className='service-img' />
           </div>
         </Slider>
       </div>

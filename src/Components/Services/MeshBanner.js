@@ -14,36 +14,12 @@ import Img3 from '../../images/services/mesh/3.png'
 
 const MeshBanner = () => {
 
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContent = `They are specialized outdoor advertising materials and are constructed from a porous, perforated material that allows wind to pass through, reducing the risk of damage in windy conditions. Mesh banners are ideal for large-scale promotional displays, such as building wraps and outdoor signage. They offer durability and weather resistance, making them suitable for long-term outdoor use. The porous design maintains visibility from a distance while minimizing the sail effect caused by strong winds. Mesh banners are commonly used on scaffolding, construction sites, sports events, and as temporary advertising displays on fences or buildings. Their versatility and ability to withstand outdoor elements make them a popular choice for promoting businesses, events, or products in the flex printing and hoarding industry.`;
@@ -67,13 +43,13 @@ const MeshBanner = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="Mesh Banner" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="Mesh Banner" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="Mesh Banner" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="Mesh Banner" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="Mesh Banner" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="Mesh Banner" className='service-img' />
           </div>
         </Slider>
       </div>

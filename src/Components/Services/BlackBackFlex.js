@@ -13,36 +13,12 @@ import Img2 from '../../images/services/black back/hoarding-500x500-1.jpg'
 import Img3 from '../../images/services/black back/hoarding-advertisement-service.jpg'
 
 const BlackBackFlex = () => {
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContent = `"It refers to a specialized type of flex material with distinctive characteristics. Blackback flex, as the name suggests, incorporates a black layer on its reverse side. This black layer serves a pivotal purpose, as it prevents light from passing through the flex material. Consequently, when such flex is used for hoarding or banner applications, it ensures that the imagery or content displayed remains vivid and visually striking, even when exposed to bright sunlight or other sources of illumination. This feature eliminates the undesirable effect of translucency often seen in standard flex materials, where the underlying structure or background can interfere with the clarity of the printed design. Blackback flex thus enhances the overall visual impact of outdoor advertising, making it an indispensable choice for large-format printing projects, particularly for hoardings, banners, and promotional displays.`;
@@ -67,13 +43,13 @@ const BlackBackFlex = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
       <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="Black back Flex" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="Black back Flex" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="Black back Flex" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="Black back Flex" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="Black back Flex" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="Black back Flex" className='service-img' />
           </div>
         </Slider>
       </div>

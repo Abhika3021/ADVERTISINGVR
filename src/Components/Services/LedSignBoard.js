@@ -15,36 +15,12 @@ import Img2 from '../../images/services/led/2.jpg'
 import Img3 from '../../images/services/led/3.png'
 const LedSignBoard = () => {
 
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContent = `These are illuminated displays used in the flex printing and hoarding business. These signs incorporate Light Emitting Diodes (LEDs) to create bright, energy-efficient visuals. They serve as dynamic marketing tools, showcasing advertisements, messages, or branding with eye-catching effects. LED signboards offer versatility, allowing for dynamic content changes and easy customization. They are typically mounted on hoardings or in indoor/outdoor settings. In the flex printing and hoarding industry, LED signboards play a pivotal role in capturing attention, conveying information, and enhancing visibility for businesses. Their durability, low maintenance requirements, and ability to deliver vibrant visuals make them a popular choice for promotional purposes in various advertising campaigns.`;
@@ -68,13 +44,13 @@ const LedSignBoard = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="LED sign Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="LED sign Board" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="LED sign Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="LED sign Board" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="LED sign Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="LED sign Board" className='service-img' />
           </div>
         </Slider>
       </div>

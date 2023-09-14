@@ -14,36 +14,12 @@ import Img3 from '../../images/services/dealer board/dealer-board-1523615419-377
 
 const DealerBoard = () => {
 
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContent = `It refer to prominent signage displaying the names and contact information of dealers or distributors of various products or services. These boards are strategically placed at specific locations to enhance visibility and attract potential customers. Dealer boards are indispensable tools for brand promotion and marketing, serving as a visual point of reference for consumers seeking specific products or services within a given area. These are crafted using flexible, durable materials like PVC or vinyl, making them suitable for outdoor use. They are typically designed to be eye-catching, featuring vibrant colors, legible fonts, and sometimes, graphic elements that align with the brand's identity. In essence, dealer boards serve as a critical component of advertising and local outreach, aiding businesses in establishing a strong presence in their target markets.`;
@@ -67,13 +43,13 @@ const DealerBoard = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="Dealer Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="Dealer Board" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="Dealer Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="Dealer Board" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="Dealer Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="Dealer Board" className='service-img' />
           </div>
         </Slider>
       </div>

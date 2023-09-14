@@ -31,8 +31,10 @@ const Visible = () => {
                         </div>
                     </div>
                     <div className='logo col-md-6 order-first'>
-                        <img src={Img} alt='image' width="100%"></img>
-                        <p>FLEX PRINTING | OUTDOOR ADVERTISING | HOARDINGS</p>
+                        <img src={Img} alt='image' width="100%"/>
+                        <p>FLEX PRINTING <br />
+                        OUTDOOR ADVERTISING<br /> 
+                        HOARDINGS</p>
                     </div>
                 </div>
             </div>

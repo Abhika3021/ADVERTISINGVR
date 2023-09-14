@@ -13,36 +13,12 @@ import Img2 from '../../images/services/star/2.png'
 import Img3 from '../../images/services/star/3.png'
 
 const StarFlex = () => {
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContent = `It refers to a specialized type of printable material that boasts exceptional durability and vivid color reproduction. Star flex is constructed from a resilient PVC , substrate, fortified with UV-resistant properties, rendering it ideal for outdoor applications such as billboards, banners, and hoardings. It has ability to withstand harsh weather conditions, including intense sunlight, heavy rains, and strong winds, without compromising print quality. The term "star" in star flex signifies its stellar performance in enduring the rigors of outdoor exposure while maintaining the brilliance of printed graphics and text. Due to its longevity and visual appeal, it is a preferred choice for large-format advertising campaigns, ensuring that messages and visuals remain striking and vibrant even under adverse environmental circumstances.`;
@@ -67,13 +43,13 @@ const StarFlex = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="Star Flex" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="Star Flex" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="Star Flex" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="Star Flex" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="Star Flex" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="Star Flex" className='service-img' />
           </div>
         </Slider>
       </div>

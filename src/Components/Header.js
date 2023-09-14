@@ -33,7 +33,6 @@ const Header = () => {
 
                 {/* Navbar for small screen */}
                 <div className='container-fluid mobile'>
-
                     <nav className='navbar'>
                         <div className="navbar-toggle" onClick={toggleMenu}>
                             <div className='menu-icon'>{isOpen ? <ArrowBackIosIcon /> : <MenuIcon sx={{fontSize: 35}}/>}</div>
@@ -45,17 +44,13 @@ const Header = () => {
                             <Link to='/'><HomeIcon sx={{fontSize: 35}} /></Link>
                         </div>
                         <div className={`navbar-items ${isOpen ? 'active' : ''}`}>
-                            <Link to='/' className='navbar-item'>Home</Link>
-                            <Link to='/about-us' className='navbar-item'>About us</Link>
-                            <Link to='/services' className='navbar-item'>Services</Link>
-                            <Link to='/contact-us' className='navbar-item'>Contact us</Link>
+                            <Link to='/' className='navbar-item' onClick={toggleMenu}>Home</Link>
+                            <Link to='/about-us' className='navbar-item' onClick={toggleMenu}>About us</Link>
+                            <Link to='/services' className='navbar-item' onClick={toggleMenu}>Services</Link>
+                            <Link to='/contact-us' className='navbar-item' onClick={toggleMenu}>Contact us</Link>
                         </div>
                     </nav>
                 </div>
-                {/* <div className='logo-center'>
-                    <img src={Img} alt='image' style={{ height: '100px', width: '120px' }}></img>
-                    <p>FLEX PRINTING | OUTDOOR ADVERTISING | HOARDINGS</p>
-                </div> */}
 
             </header>
 

@@ -8,38 +8,18 @@ import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
 import TuneIcon from '@mui/icons-material/Tune';
 import ChecklistIcon from '@mui/icons-material/Checklist';
 import HighQualityIcon from '@mui/icons-material/HighQuality';
+import Img1 from '../../images/services/flex signage/1.jpg'
+import Img2 from '../../images/services/flex signage/2.webp'
+import Img3 from '../../images/services/flex signage/3.jpg'
 
 const FlexSignages = () => {
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContent = `It refer to versatile, durable, and cost-effective advertising displays crafted from flexible PVC-based material. These signages serve as prominent visual tools for businesses to convey messages, promotions, or branding. Typically produced through digital printing, flex signages offer vibrant graphics, ensuring eye-catching displays that can withstand various weather conditions. Their lightweight nature allows for easy installation and portability, making them suitable for both indoor and outdoor applications. In the competitive realm of advertising, flex signages offer a budget-friendly alternative without compromising on visual impact. Whether it's promoting products, events, or services, flex signages provide an effective means to capture the attention of potential customes.`;
@@ -61,22 +41,16 @@ const FlexSignages = () => {
 
   return (
     <div className='container'>
-      <div className="container advantages-slider mb-5">
+      <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-
+            <img src={Img1} alt="Flex Signages" className='service-img' />
           </div>
           <div className="slide">
-
+            <img src={Img2} alt="Flex Signages" className='service-img' />
           </div>
           <div className="slide">
-
-          </div>
-          <div className="slide">
-
-          </div>
-          <div className="slide">
-
+            <img src={Img3} alt="Flex Signages" className='service-img' />
           </div>
         </Slider>
       </div>

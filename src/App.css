@@ -658,7 +658,7 @@ footer .container h2 {
 
 }
 
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .mobile {
     display: none;
   }
@@ -667,7 +667,7 @@ footer .container h2 {
   } */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .container-fluid .laptop {
     display: none;
   }
@@ -678,15 +678,14 @@ footer .container h2 {
   .mobile {
     visibility: visible;
   }
-
-  .container .footer-connect .social-icons {
-    display: flex;
-    padding-left: 75px;
-  }
-
 }
 
-
+@media (max-width: 575px) {
+  .container .footer-connect .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 @media (max-width:520px) {
   .why .whyInner .whyHead{
@@ -836,3 +835,12 @@ footer .container h2 {
   }
 }
 
+.service-img{
+  height: 50vh ;
+  width: 100% ; 
+}
+@media (max-width: 500px){
+  .service-img{
+    height: 30vh;
+  }
+}

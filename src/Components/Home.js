@@ -1,6 +1,5 @@
 import React from 'react'
 import OfferContainer from './Home/OfferContainer';
-
 import Brand from './Home/Brand';
 import HomeAbout from './Home/HomeAbout';
 import Visible from './Home/Visible';
@@ -18,7 +17,7 @@ const Home = () => {
             </div>
             <div className='about-container'>
                 <div className='about'>
-                    <h2>At <span>ColourX</span></h2>
+                    <h2>About <span>ColourX</span></h2>
                     <HomeAbout />
                 </div>
             </div>

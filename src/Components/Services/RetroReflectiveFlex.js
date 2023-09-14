@@ -13,36 +13,13 @@ import Img2 from '../../images/services/reflective/retro-reflective-board-151808
 import Img3 from '../../images/services/reflective/retro-reflective-sign-boards.jpg'
 
 const RetroReflectiveFlex = () => {
-    const responsiveSettings = [
-        {
-            breakpoint: 1024, // Large screens and above
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-            },
-        },
-        {
-            breakpoint: 768, // Medium screens
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-            },
-        },
-        {
-            breakpoint: 480, // Small screens and below
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            },
-        },
-    ];
+
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1, // Number of slides visible at a time
         slidesToScroll: 1, // Number of slides to scroll
-        responsive: responsiveSettings,
     };
 
     const fullContent = `It is a specialized material that possesses unique light-reflecting properties. This material is engineered with tiny glass beads or microprisms embedded in its surface. When light, such as headlights from vehicles, hits retroreflective flex, it bounces back directly towards its source, enhancing visibility at night or in low-light conditions.
@@ -68,13 +45,13 @@ const RetroReflectiveFlex = () => {
             <div className="container advantages-slider my-5 w-50 mx-auto">
                 <Slider {...settings}>
                     <div className="slide">
-                        <img src={Img1} alt="Retro Reflective Flex" style={{ height: '50vh', width: '100%' }} />
+                        <img src={Img1} alt="Retro Reflective Flex" className='service-img' />
                     </div>
                     <div className="slide">
-                        <img src={Img2} alt="Retro Reflective Flex" style={{ height: '50vh', width: '100%' }} />
+                        <img src={Img2} alt="Retro Reflective Flex" className='service-img' />
                     </div>
                     <div className="slide">
-                        <img src={Img3} alt="Retro Reflective Flex" style={{ height: '50vh', width: '100%' }} />
+                        <img src={Img3} alt="Retro Reflective Flex" className='service-img' />
                     </div>
                 </Slider>
             </div>

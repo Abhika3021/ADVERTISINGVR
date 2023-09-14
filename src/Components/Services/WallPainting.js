@@ -12,36 +12,13 @@ import Img1 from '../../images/services/wall painting/1.jpg'
 import Img2 from '../../images/services/wall painting/2.webp'
 import Img3 from '../../images/services/wall painting/3.webp'
 const WallPainting = () => {
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
   const fullContent = `"Backlight flex" denotes a specialized type of flexible substrate engineered for deployment in backlit advertising displays. These displays are characterized by their illumination originating from a rear source, commonly employing technologies such as LEDs. Backlight flex materials possess a semi-translucent quality, facilitating the transmission of light through them. This attribute enhances the luminosity and vividness of the printed imagery or textual content when subjected to backlighting. Consequently, backlight flex emerges as the preferred choice for crafting attention-grabbing and illuminated promotional exhibits, including billboards, posters, and signage designed to maintain visibility throughout both daytime and nighttime hours.`;
 
@@ -62,13 +39,13 @@ const WallPainting = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="Wall Painting" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="Wall Painting" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="Wall Painting" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="Wall Painting" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="Wall Painting" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="Wall Painting" className='service-img' />
           </div>
         </Slider>
       </div>

@@ -57,12 +57,12 @@ const Footer = () => {
                     <div className='footer-connect col-sm-4 col-xs'>
                         <div>
                             <h2>Get In Touch!</h2>
-                            <div className='social-icons'>
-                            <a href="https://wa.me/9758586358"><WhatsAppIcon /></a>
-                            <a href="#"><LinkedInIcon /></a>
+                            <div className='social-icons text-center'>
+                            <a href="https://wa.me/9758586358"><WhatsAppIcon style={{fontSize:30}} /></a>
+                            {/* <a href="#"><LinkedInIcon /></a>
                             <a href="#"><FacebookIcon /></a>
-                            <a href="#"><YouTubeIcon /></a>
-                            <a href="https://maps.app.goo.gl/q8Zpb8TUDyByNPP77"><RoomIcon /></a>
+                            <a href="#"><YouTubeIcon /></a> */}
+                            <a href="https://maps.app.goo.gl/q8Zpb8TUDyByNPP77"><RoomIcon style={{fontSize:30}} /></a>
                             </div>
                         </div>
                     </div>

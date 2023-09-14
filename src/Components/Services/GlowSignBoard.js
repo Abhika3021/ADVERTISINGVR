@@ -13,36 +13,13 @@ import Img2 from '../../images/services/glow/flex-vinyl-glow-sign-board.jpg'
 import Img3 from '../../images/services/glow/glow-sign-board-500x500.webp'
 
 const GlowSignBoard = () => {
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
-    slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
+    slidesToScroll: 1, 
   };
 
   const fullContent = `They are illuminated advertising displays commonly incorporating flexible printed materials, such as vinyl or PVC, which are chosen for their durability and versatility. The key feature of glow sign boards is their capacity to emit light, enhancing visibility during both day and night. Typically, these boards are equipped with LED lighting systems strategically positioned behind the printed material.
@@ -68,13 +45,13 @@ const GlowSignBoard = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="Glow Sign Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="Glow Sign Board" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="Glow Sign Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="Glow Sign Board" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="Glow Sign Board" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="Glow Sign Board" className='service-img' />
           </div>
         </Slider>
       </div>

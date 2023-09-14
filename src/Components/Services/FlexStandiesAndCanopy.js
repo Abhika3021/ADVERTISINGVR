@@ -19,36 +19,12 @@ import Img6 from '../../images/services/canopy/2.webp'
 import Img7 from '../../images/services/canopy/3.webp'
 
 const FlexStandiesAndCanopy = () => {
-  const responsiveSettings = [
-    {
-      breakpoint: 1024, // Large screens and above
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, // Medium screens
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, // Small screens and below
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ];
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Number of slides visible at a time
     slidesToScroll: 1, // Number of slides to scroll
-    responsive: responsiveSettings,
   };
 
   const fullContentStandies = `It refer to portable display stands made from flexible, weather-resistant materials. These stands serve as versatile platforms to showcase advertisements or promotional content, often at events, trade shows, or retail spaces. They are lightweight and easy to set up, making them convenient for temporary displays.
@@ -78,16 +54,16 @@ const FlexStandiesAndCanopy = () => {
       <div className="container advantages-slider my-5 w-50 mx-auto">
         <Slider {...settings}>
           <div className="slide">
-            <img src={Img1} alt="Flex Standees" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img1} alt="Flex Standees" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img2} alt="Flex Standees" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img2} alt="Flex Standees" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img3} alt="Flex Standees" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img3} alt="Flex Standees" className='service-img' />
           </div>
           <div className="slide">
-            <img src={Img4} alt="Flex Standees" style={{ height: '50vh', width: '100%' }} />
+            <img src={Img4} alt="Flex Standees" className='service-img' />
           </div>
         </Slider>
       </div>
@@ -183,13 +159,13 @@ const FlexStandiesAndCanopy = () => {
         <div className="container advantages-slider my-5 w-50 mx-auto">
           <Slider {...settings}>
             <div className="slide">
-              <img src={Img5} alt="Canopy" style={{ height: '50vh', width: '100%' }} />
+              <img src={Img5} alt="Canopy" className='service-img' />
             </div>
             <div className="slide">
-              <img src={Img6} alt="Canopy" style={{ height: '50vh', width: '100%' }} />
+              <img src={Img6} alt="Canopy" className='service-img' />
             </div>
             <div className="slide">
-              <img src={Img7} alt="Canopy" style={{ height: '50vh', width: '100%' }} />
+              <img src={Img7} alt="Canopy" className='service-img' />
             </div>
           </Slider>
         </div>
