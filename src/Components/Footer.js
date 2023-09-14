@@ -57,7 +57,7 @@ const Footer = () => {
                     <div className='footer-connect col-sm-4 col-xs'>
                         <div>
                             <h2>Get In Touch!</h2>
-                            <div className='social-icons text-center'>
+                            <div className='social-icons'>
                             <a href="https://wa.me/9758586358"><WhatsAppIcon style={{fontSize:30}} /></a>
                             {/* <a href="#"><LinkedInIcon /></a>
                             <a href="#"><FacebookIcon /></a>
